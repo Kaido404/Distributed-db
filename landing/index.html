@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connect to Server</title>
+    <style>
+        body { font-family: Arial; background: #f5f5f5; display: flex; height: 100vh; align-items: center; justify-content: center; }
+        .box { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px #0001; }
+        input, button { padding: 10px; margin: 10px 0; width: 100%; border-radius: 4px; border: 1px solid #ddd; }
+        button { background: #007bff; color: #fff; border: none; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        #errorModal { display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.3); align-items:center; justify-content:center; z-index:1000; }
+        #errorModal[style*="display: flex"] { display: flex !important; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Connect to Server</h2>
+        <input type="text" id="ip" placeholder="Enter IP address (default: 127.0.0.1)">
+        <button onclick="go()">Connect</button>
+        <div id="errorMsg" style="color:#080203; margin-top:10px;"></div>
+    </div>
+    <div id="errorModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.3); align-items:center; justify-content:center;">
+        <div style="background:#fff; padding:30px; border-radius:8px; min-width:300px; box-shadow:0 2px 8px #0002; text-align:center;">
+            <span id="errorModalMsg" style="color:#040102;"></span>
+            <br><br>
+            <button onclick="closeErrorModal()" style="padding:8px 20px; background:#007bff; color:#fff; border:none; border-radius:4px;">OK</button>
+        </div>
+    </div>
+    <script>
+        function showError(msg) {
+            document.getElementById('errorModalMsg').textContent = msg;
+            document.getElementById('errorModal').style.display = 'flex';
+        }
+        async function go() {
+            document.getElementById('errorMsg').textContent = "";
+            let ip = document.getElementById('ip').value.trim() || '127.0.0.1';
+            let isLocal = (ip === '127.0.0.1' || ip.toLowerCase() === 'localhost');
+            let url = isLocal ? `http://${ip}:8082/` : `http://${ip}:8084/`;
+
+            async function check(url, timeout = 1500) {
+                return await Promise.race([
+                    fetch(url, { method: 'GET', mode: 'cors' }).then(res => res.ok).catch(() => false),
+                    new Promise(resolve => setTimeout(() => resolve(false), timeout))
+                ]);
+            }
+
+            try {
+                if (await check(url)) {
+                    window.location.href = url;
+                } else {
+                    if (isLocal) {
+                        showError('No Master server is running at this address.');
+                    } else {
+                        showError('No Slave server is running at this address.');
+                    }
+                }
+            } catch (error) {
+                if (isLocal) {
+                    showError('No Master server is running at this address.');
+                } else {
+                    showError('No Slave server is running at this address.');
+                }
+            }
+        }
+        function closeErrorModal() {
+            document.getElementById('errorModal').style.display = 'none';
+        }
+    </script>
+</body>
+</html> 

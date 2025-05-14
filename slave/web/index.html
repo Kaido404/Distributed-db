@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slave Server - Database Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Slave Server - Database Management</h1>
+        
+        <!-- Query Execution -->
+        <div class="section">
+            <h2>Execute Query</h2>
+            <div class="form-group">
+                <textarea id="query" placeholder="Enter SQL Query (SELECT, INSERT, UPDATE, DELETE)"></textarea>
+                <button onclick="executeQuery()">Execute</button>
+            </div>
+            <div id="queryResult"></div>
+        </div>
+
+        <!-- Quick Operations -->
+        <div class="section">
+            <h2>Quick Operations</h2>
+            
+            <!-- Search -->
+            <div class="operation">
+                <h3>Search Records</h3>
+                <div class="form-group">
+                    <input type="text" id="searchDB" placeholder="Database Name">
+                    <input type="text" id="searchTable" placeholder="Table Name">
+                    <input type="text" id="searchColumn" placeholder="Column Name">
+                    <input type="text" id="searchValue" placeholder="Search Value">
+                    <button onclick="searchRecords()">Search</button>
+                </div>
+            </div>
+
+            <!-- Update -->
+            <div class="operation">
+                <h3>Update Records</h3>
+                <div class="form-group">
+                    <input type="text" id="updateDB" placeholder="Database Name">
+                    <input type="text" id="updateTable" placeholder="Table Name">
+                    <input type="text" id="updateColumn" placeholder="Column to Update">
+                    <input type="text" id="updateValue" placeholder="New Value">
+                    <input type="text" id="updateWhere" placeholder="WHERE condition">
+                    <button onclick="updateRecords()">Update</button>
+                </div>
+            </div>
+
+            <!-- Delete -->
+            <div class="operation">
+                <h3>Delete Records</h3>
+                <div class="form-group">
+                    <input type="text" id="deleteDB" placeholder="Database Name">
+                    <input type="text" id="deleteTable" placeholder="Table Name">
+                    <input type="text" id="deleteWhere" placeholder="WHERE condition">
+                    
+                    <button onclick="deleteRecords()">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

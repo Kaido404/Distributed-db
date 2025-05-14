@@ -1,0 +1,1542 @@
+2025/05/14 06:31:06.253600 Connecting to master server...
+2025/05/14 06:31:06.254645 Successfully connected to master server
+2025/05/14 06:31:06.254645 Slave started. Type your SQL query (or 'exit' to quit):
+2025/05/14 06:31:06.254645 Starting Slave GUI server...
+2025/05/14 06:31:06.254645 Found web directory at: ./web
+2025/05/14 06:31:06.254645 Slave GUI running at http://localhost:8084/
+2025/05/14 06:31:06.254645 Attempt 1: Starting server on port 8084...
+2025/05/14 06:31:12.881926 Received request: GET /
+2025/05/14 06:31:12.881926 Serving from directory: ./web
+2025/05/14 06:31:12.881926 File exists: ./web/index.html
+2025/05/14 06:31:12.940587 Received request: GET /script.js
+2025/05/14 06:31:12.940587 Serving from directory: ./web
+2025/05/14 06:31:12.940587 File exists: ./web/script.js
+2025/05/14 06:31:17.806329 Sending request to master: {"query":"Select 1;","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 06:31:17.806862 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 06:31:36.261089 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:32:06.264332 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:32:09.092319 Received request: GET /
+2025/05/14 06:32:09.092319 Serving from directory: ./web
+2025/05/14 06:32:09.092827 File exists: ./web/index.html
+2025/05/14 06:32:25.779321 Sending request to master: {"query":"Select 1;","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 06:32:25.779851 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 06:32:36.262065 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:33:06.261603 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:33:34.077909 Received request: GET /
+2025/05/14 06:33:34.077909 Serving from directory: ./web
+2025/05/14 06:33:34.077909 File exists: ./web/index.html
+2025/05/14 06:33:34.101576 Received request: GET /script.js
+2025/05/14 06:33:34.101576 Serving from directory: ./web
+2025/05/14 06:33:34.101576 File exists: ./web/script.js
+2025/05/14 06:33:36.257266 Sending request to master: {"query":"Select 1;","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 06:33:36.257797 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 06:33:36.265302 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:34:15.037902 Connecting to master server...
+2025/05/14 06:34:15.038953 Successfully connected to master server
+2025/05/14 06:34:15.038953 Slave started. Type your SQL query (or 'exit' to quit):
+2025/05/14 06:34:15.038953 Starting Slave GUI server...
+2025/05/14 06:34:15.039472 Found web directory at: ./web
+2025/05/14 06:34:15.039472 Slave GUI running at http://localhost:8084/
+2025/05/14 06:34:15.039472 Attempt 1: Starting server on port 8084...
+2025/05/14 06:34:27.049514 Received request: GET /
+2025/05/14 06:34:27.049514 Serving from directory: ./web
+2025/05/14 06:34:27.049514 File exists: ./web/index.html
+2025/05/14 06:34:41.119210 Found local IP address: 169.254.14.48
+2025/05/14 06:34:41.119210 Sending request to master: {"query":"Select 1;","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 06:34:41.119871 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 06:34:45.043066 Found local IP address: 169.254.14.48
+2025/05/14 06:34:45.049110 Found local IP address: 169.254.14.48
+2025/05/14 06:34:45.049110 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:35:15.044045 Found local IP address: 169.254.14.48
+2025/05/14 06:35:15.047038 Found local IP address: 169.254.14.48
+2025/05/14 06:35:15.047038 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:35:45.042035 Found local IP address: 169.254.14.48
+2025/05/14 06:35:45.047030 Found local IP address: 169.254.14.48
+2025/05/14 06:35:45.047030 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:35:46.695065 Received request: GET /
+2025/05/14 06:35:46.695065 Serving from directory: ./web
+2025/05/14 06:35:46.696644 File exists: ./web/index.html
+2025/05/14 06:35:53.697956 Found local IP address: 169.254.14.48
+2025/05/14 06:35:53.697956 Sending request to master: {"query":"Select 1;","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 06:35:53.698498 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 06:36:14.638335 Received request: GET /
+2025/05/14 06:36:14.638335 Serving from directory: ./web
+2025/05/14 06:36:14.638335 File exists: ./web/index.html
+2025/05/14 06:36:14.669047 Received request: GET /script.js
+2025/05/14 06:36:14.669047 Serving from directory: ./web
+2025/05/14 06:36:14.669047 File exists: ./web/script.js
+2025/05/14 06:36:15.042144 Found local IP address: 169.254.14.48
+2025/05/14 06:36:15.045424 Found local IP address: 169.254.14.48
+2025/05/14 06:36:15.045424 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:36:20.059021 Found local IP address: 169.254.14.48
+2025/05/14 06:36:20.059021 Sending request to master: {"query":"Select 1;","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 06:36:20.059552 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 06:36:31.064911 Found local IP address: 169.254.14.48
+2025/05/14 06:36:31.064911 Sending request to master: {"query":"Select 1;","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 06:36:31.065443 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 06:36:45.040636 Found local IP address: 169.254.14.48
+2025/05/14 06:36:45.045188 Found local IP address: 169.254.14.48
+2025/05/14 06:36:45.045188 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:37:15.041450 Found local IP address: 169.254.14.48
+2025/05/14 06:37:15.044789 Found local IP address: 169.254.14.48
+2025/05/14 06:37:15.044789 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:37:45.040505 Found local IP address: 169.254.14.48
+2025/05/14 06:37:45.046203 Found local IP address: 169.254.14.48
+2025/05/14 06:37:45.046203 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:38:03.248353 Received request: GET /
+2025/05/14 06:38:03.248353 Serving from directory: ./web
+2025/05/14 06:38:03.248353 File exists: ./web/index.html
+2025/05/14 06:38:03.587207 Received request: GET /favicon.ico
+2025/05/14 06:38:03.587207 Serving from directory: ./web
+2025/05/14 06:38:03.587207 File not found: ./web/favicon.ico
+2025/05/14 06:38:10.971390 Found local IP address: 169.254.14.48
+2025/05/14 06:38:10.971390 Sending request to master: {"query":"Select 1;","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 06:38:10.971946 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 06:38:15.040332 Found local IP address: 169.254.14.48
+2025/05/14 06:38:15.049570 Found local IP address: 169.254.14.48
+2025/05/14 06:38:15.049570 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:38:31.130340 Found local IP address: 169.254.14.48
+2025/05/14 06:38:31.130340 Sending request to master: {"query":"Select 1;","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 06:38:45.039144 Heartbeat failed: no connection to master
+2025/05/14 06:38:45.728869 Received request: GET /
+2025/05/14 06:38:45.728869 Serving from directory: ./web
+2025/05/14 06:38:45.728869 File exists: ./web/index.html
+2025/05/14 06:38:50.728834 Found local IP address: 169.254.14.48
+2025/05/14 06:38:50.728834 Sending request to master: {"query":"Select 1 ;","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 06:38:50.729348 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 06:39:15.043965 Found local IP address: 169.254.14.48
+2025/05/14 06:39:15.047243 Found local IP address: 169.254.14.48
+2025/05/14 06:39:15.047787 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:39:15.050679 Found local IP address: 169.254.14.48
+2025/05/14 06:39:15.053915 Found local IP address: 169.254.14.48
+2025/05/14 06:39:15.053915 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:39:45.044795 Found local IP address: 169.254.14.48
+2025/05/14 06:39:45.050253 Found local IP address: 169.254.14.48
+2025/05/14 06:39:45.050253 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:39:45.055441 Found local IP address: 169.254.14.48
+2025/05/14 06:39:45.059964 Found local IP address: 169.254.14.48
+2025/05/14 06:39:45.059964 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:40:15.040277 Found local IP address: 169.254.14.48
+2025/05/14 06:40:15.047354 Found local IP address: 169.254.14.48
+2025/05/14 06:40:15.047899 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:40:15.051363 Found local IP address: 169.254.14.48
+2025/05/14 06:40:15.056308 Found local IP address: 169.254.14.48
+2025/05/14 06:40:15.056308 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:40:45.042185 Found local IP address: 169.254.14.48
+2025/05/14 06:40:45.048381 Found local IP address: 169.254.14.48
+2025/05/14 06:40:45.048381 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:40:45.052899 Found local IP address: 169.254.14.48
+2025/05/14 06:40:45.058697 Found local IP address: 169.254.14.48
+2025/05/14 06:40:45.058697 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:41:15.063750 Found local IP address: 169.254.14.48
+2025/05/14 06:41:15.093063 Found local IP address: 169.254.14.48
+2025/05/14 06:41:15.093063 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:41:15.107430 Found local IP address: 169.254.14.48
+2025/05/14 06:41:15.112765 Found local IP address: 169.254.14.48
+2025/05/14 06:41:15.112765 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:41:45.041172 Found local IP address: 169.254.14.48
+2025/05/14 06:41:45.044510 Found local IP address: 169.254.14.48
+2025/05/14 06:41:45.044510 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:41:45.047315 Found local IP address: 169.254.14.48
+2025/05/14 06:41:45.049396 Found local IP address: 169.254.14.48
+2025/05/14 06:41:45.049396 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:42:15.042003 Found local IP address: 169.254.14.48
+2025/05/14 06:42:15.046760 Found local IP address: 169.254.14.48
+2025/05/14 06:42:15.046760 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:42:15.049960 Found local IP address: 169.254.14.48
+2025/05/14 06:42:15.054210 Found local IP address: 169.254.14.48
+2025/05/14 06:42:15.054210 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:42:45.042394 Found local IP address: 169.254.14.48
+2025/05/14 06:42:45.047302 Found local IP address: 169.254.14.48
+2025/05/14 06:42:45.047302 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:42:45.052078 Found local IP address: 169.254.14.48
+2025/05/14 06:42:45.056099 Found local IP address: 169.254.14.48
+2025/05/14 06:42:45.056099 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:43:15.040222 Found local IP address: 169.254.14.48
+2025/05/14 06:43:15.047442 Found local IP address: 169.254.14.48
+2025/05/14 06:43:15.047442 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:43:15.051181 Found local IP address: 169.254.14.48
+2025/05/14 06:43:15.054384 Found local IP address: 169.254.14.48
+2025/05/14 06:43:15.054910 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:43:45.041942 Found local IP address: 169.254.14.48
+2025/05/14 06:43:45.044271 Found local IP address: 169.254.14.48
+2025/05/14 06:43:45.044271 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:43:45.047163 Found local IP address: 169.254.14.48
+2025/05/14 06:43:45.049801 Found local IP address: 169.254.14.48
+2025/05/14 06:43:45.049801 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:44:15.039815 Found local IP address: 169.254.14.48
+2025/05/14 06:44:15.046157 Found local IP address: 169.254.14.48
+2025/05/14 06:44:15.046157 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:44:15.048874 Found local IP address: 169.254.14.48
+2025/05/14 06:44:15.052607 Found local IP address: 169.254.14.48
+2025/05/14 06:44:15.052607 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:44:45.040232 Found local IP address: 169.254.14.48
+2025/05/14 06:44:45.046196 Found local IP address: 169.254.14.48
+2025/05/14 06:44:45.046196 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:44:45.049008 Found local IP address: 169.254.14.48
+2025/05/14 06:44:45.052791 Found local IP address: 169.254.14.48
+2025/05/14 06:44:45.052791 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:45:15.042368 Found local IP address: 169.254.14.48
+2025/05/14 06:45:15.046497 Found local IP address: 169.254.14.48
+2025/05/14 06:45:15.046497 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:45:15.049644 Found local IP address: 169.254.14.48
+2025/05/14 06:45:15.052290 Found local IP address: 169.254.14.48
+2025/05/14 06:45:15.052290 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:45:45.042184 Found local IP address: 169.254.14.48
+2025/05/14 06:45:45.048434 Found local IP address: 169.254.14.48
+2025/05/14 06:45:45.048434 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:45:45.052920 Found local IP address: 169.254.14.48
+2025/05/14 06:45:45.057360 Found local IP address: 169.254.14.48
+2025/05/14 06:45:45.057360 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:46:15.039803 Found local IP address: 169.254.14.48
+2025/05/14 06:46:15.047284 Found local IP address: 169.254.14.48
+2025/05/14 06:46:15.047284 Heartbeat successful from slave 169.254.14.48
+2025/05/14 06:46:15.050740 Found local IP address: 169.254.14.48
+2025/05/14 06:46:15.054018 Found local IP address: 169.254.14.48
+2025/05/14 06:46:15.054018 Heartbeat successful from slave 169.254.14.48
+2025/05/14 10:51:27.913818 Failed to initialize database handler: failed to ping database: dial tcp 127.0.0.1:3307: connectex: No connection could be made because the target machine actively refused it.
+2025/05/14 10:52:04.808057 Connecting to master server...
+2025/05/14 10:52:04.819702 Found local IP address: 169.254.14.48
+2025/05/14 10:52:04.823696 Found local IP address: 169.254.14.48
+2025/05/14 10:52:04.824227 Established persistent connection to master server from 169.254.14.48
+2025/05/14 10:52:04.824227 Successfully connected to master server
+2025/05/14 10:52:04.824227 Slave started. Type your SQL query (or 'exit' to quit):
+2025/05/14 10:52:04.824227 Starting Slave GUI server...
+2025/05/14 10:52:04.824227 Found web directory at: ./web
+2025/05/14 10:52:04.824227 Slave GUI running at http://localhost:8084/
+2025/05/14 10:52:04.824227 Attempt 1: Starting server on port 8084...
+2025/05/14 10:52:34.824712 Found local IP address: 169.254.14.48
+2025/05/14 10:52:34.828014 Found local IP address: 169.254.14.48
+2025/05/14 10:52:34.828014 Heartbeat successful from slave 169.254.14.48
+2025/05/14 10:53:04.823600 Found local IP address: 169.254.14.48
+2025/05/14 10:53:04.826229 Found local IP address: 169.254.14.48
+2025/05/14 10:53:04.826229 Heartbeat successful from slave 169.254.14.48
+2025/05/14 10:53:34.825604 Found local IP address: 169.254.14.48
+2025/05/14 10:53:34.829214 Found local IP address: 169.254.14.48
+2025/05/14 10:53:34.829871 Heartbeat successful from slave 169.254.14.48
+2025/05/14 10:53:39.260611 Received request: GET /
+2025/05/14 10:53:39.260611 Serving from directory: ./web
+2025/05/14 10:53:39.260611 File exists: ./web/index.html
+2025/05/14 10:53:39.373244 Received request: GET /
+2025/05/14 10:53:39.373244 Serving from directory: ./web
+2025/05/14 10:53:39.373244 File exists: ./web/index.html
+2025/05/14 10:53:39.416009 Received request: GET /style.css
+2025/05/14 10:53:39.416009 Serving from directory: ./web
+2025/05/14 10:53:39.416009 Received request: GET /script.js
+2025/05/14 10:53:39.416009 Serving from directory: ./web
+2025/05/14 10:53:39.416009 File exists: ./web/style.css
+2025/05/14 10:53:39.416009 File exists: ./web/script.js
+2025/05/14 10:53:40.639017 Received request: GET /favicon.ico
+2025/05/14 10:53:40.639017 Serving from directory: ./web
+2025/05/14 10:53:40.639017 File not found: ./web/favicon.ico
+2025/05/14 10:54:04.825345 Found local IP address: 169.254.14.48
+2025/05/14 10:54:04.827990 Found local IP address: 169.254.14.48
+2025/05/14 10:54:04.827990 Heartbeat successful from slave 169.254.14.48
+2025/05/14 10:54:34.823269 Found local IP address: 169.254.14.48
+2025/05/14 10:54:34.829028 Found local IP address: 169.254.14.48
+2025/05/14 10:54:34.829028 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:45:02.961915 Received request: GET /
+2025/05/14 16:45:02.963571 Serving from directory: ./web
+2025/05/14 16:45:02.963571 File exists: ./web/index.html
+2025/05/14 16:45:03.852127 Received request: GET /
+2025/05/14 16:45:03.852127 Serving from directory: ./web
+2025/05/14 16:45:03.852127 File exists: ./web/index.html
+2025/05/14 16:45:04.186099 Received request: GET /
+2025/05/14 16:45:04.186099 Serving from directory: ./web
+2025/05/14 16:45:04.188107 File exists: ./web/index.html
+2025/05/14 16:45:05.580893 Found local IP address: 169.254.14.48
+2025/05/14 16:45:05.585136 Found local IP address: 169.254.14.48
+2025/05/14 16:45:05.585668 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:45:09.000418 Found local IP address: 169.254.14.48
+2025/05/14 16:45:09.004742 Found local IP address: 169.254.14.48
+2025/05/14 16:45:09.004742 Sending request to master: {"query":"  SHOW DATABASES;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:45:09.004742 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:45:23.047890 Connecting to master server...
+2025/05/14 16:45:23.059505 Found local IP address: 169.254.14.48
+2025/05/14 16:45:23.062662 Found local IP address: 169.254.14.48
+2025/05/14 16:45:23.062662 Established persistent connection to master server from 169.254.14.48
+2025/05/14 16:45:23.062662 Successfully connected to master server
+2025/05/14 16:45:23.062662 Slave started. Type your SQL query (or 'exit' to quit):
+2025/05/14 16:45:23.062662 Starting Slave GUI server...
+2025/05/14 16:45:23.062662 Found web directory at: ./web
+2025/05/14 16:45:23.063185 Slave GUI running at http://localhost:8084/
+2025/05/14 16:45:23.063185 Attempt 1: Starting server on port 8084...
+2025/05/14 16:45:30.728035 Received request: GET /
+2025/05/14 16:45:30.728035 Serving from directory: ./web
+2025/05/14 16:45:30.728035 File exists: ./web/index.html
+2025/05/14 16:45:34.379961 Found local IP address: 169.254.14.48
+2025/05/14 16:45:34.382740 Found local IP address: 169.254.14.48
+2025/05/14 16:45:34.382740 Sending request to master: {"query":"  SHOW DATABASES;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:45:34.382740 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:45:53.064492 Found local IP address: 169.254.14.48
+2025/05/14 16:45:53.068027 Found local IP address: 169.254.14.48
+2025/05/14 16:45:53.068027 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:46:23.063808 Found local IP address: 169.254.14.48
+2025/05/14 16:46:23.066449 Found local IP address: 169.254.14.48
+2025/05/14 16:46:23.066449 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:46:27.317959 Found local IP address: 169.254.14.48
+2025/05/14 16:46:27.320568 Found local IP address: 169.254.14.48
+2025/05/14 16:46:27.320568 Sending request to master: {"query":"  SHOW DATABASES;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:46:27.320568 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:46:28.153832 Found local IP address: 169.254.14.48
+2025/05/14 16:46:28.155939 Found local IP address: 169.254.14.48
+2025/05/14 16:46:28.155939 Sending request to master: {"query":"  SHOW DATABASES;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:46:28.155939 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:46:28.362658 Received request: GET /
+2025/05/14 16:46:28.362658 Serving from directory: ./web
+2025/05/14 16:46:28.362658 File exists: ./web/index.html
+2025/05/14 16:46:28.724111 Received request: GET /
+2025/05/14 16:46:28.724111 Serving from directory: ./web
+2025/05/14 16:46:28.724111 File exists: ./web/index.html
+2025/05/14 16:46:29.074975 Received request: GET /
+2025/05/14 16:46:29.074975 Serving from directory: ./web
+2025/05/14 16:46:29.076523 File exists: ./web/index.html
+2025/05/14 16:46:29.109402 Received request: GET /
+2025/05/14 16:46:29.109402 Serving from directory: ./web
+2025/05/14 16:46:29.109402 File exists: ./web/index.html
+2025/05/14 16:46:31.649574 Found local IP address: 169.254.14.48
+2025/05/14 16:46:31.652774 Found local IP address: 169.254.14.48
+2025/05/14 16:46:31.652774 Sending request to master: {"query":"  SHOW DATABASES;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:46:31.652774 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:46:53.063975 Found local IP address: 169.254.14.48
+2025/05/14 16:46:53.068213 Found local IP address: 169.254.14.48
+2025/05/14 16:46:53.068213 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:47:23.061173 Found local IP address: 169.254.14.48
+2025/05/14 16:47:23.065274 Found local IP address: 169.254.14.48
+2025/05/14 16:47:23.065274 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:47:53.062737 Found local IP address: 169.254.14.48
+2025/05/14 16:47:53.065753 Found local IP address: 169.254.14.48
+2025/05/14 16:47:53.066271 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:48:23.062525 Found local IP address: 169.254.14.48
+2025/05/14 16:48:23.066092 Found local IP address: 169.254.14.48
+2025/05/14 16:48:23.066092 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:48:53.062863 Found local IP address: 169.254.14.48
+2025/05/14 16:48:53.067472 Found local IP address: 169.254.14.48
+2025/05/14 16:48:53.067472 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:49:00.344120 Found local IP address: 169.254.14.48
+2025/05/14 16:49:00.348431 Found local IP address: 169.254.14.48
+2025/05/14 16:49:00.348431 Sending request to master: {"query":"     SHOW DATABASES;\n     USE master_db;\n     SHOW TABLES;\n     SELECT * FROM tasks;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:49:00.348431 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:49:01.440896 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.451601 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.455901 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.455901 Established persistent connection to master server from 169.254.14.48
+2025/05/14 16:49:01.459973 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.459973 Sending request to master: {"query":"     SHOW DATABASES;\n     USE master_db;\n     SHOW TABLES;\n     SELECT * FROM tasks;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:49:01.459973 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:49:01.596067 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.601527 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.605817 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.605817 Established persistent connection to master server from 169.254.14.48
+2025/05/14 16:49:01.609553 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.609553 Sending request to master: {"query":"     SHOW DATABASES;\n     USE master_db;\n     SHOW TABLES;\n     SELECT * FROM tasks;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:49:01.609553 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:49:01.744986 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.751309 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.755688 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.755688 Established persistent connection to master server from 169.254.14.48
+2025/05/14 16:49:01.757795 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.758313 Sending request to master: {"query":"     SHOW DATABASES;\n     USE master_db;\n     SHOW TABLES;\n     SELECT * FROM tasks;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:49:01.758313 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:49:01.879773 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.885656 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.889459 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.889459 Established persistent connection to master server from 169.254.14.48
+2025/05/14 16:49:01.893774 Found local IP address: 169.254.14.48
+2025/05/14 16:49:01.893774 Sending request to master: {"query":"     SHOW DATABASES;\n     USE master_db;\n     SHOW TABLES;\n     SELECT * FROM tasks;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:49:01.893774 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:49:02.007981 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.012828 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.017207 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.017207 Established persistent connection to master server from 169.254.14.48
+2025/05/14 16:49:02.020952 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.020952 Sending request to master: {"query":"     SHOW DATABASES;\n     USE master_db;\n     SHOW TABLES;\n     SELECT * FROM tasks;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:49:02.020952 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:49:02.142693 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.148652 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.152953 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.152953 Established persistent connection to master server from 169.254.14.48
+2025/05/14 16:49:02.156822 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.156822 Sending request to master: {"query":"     SHOW DATABASES;\n     USE master_db;\n     SHOW TABLES;\n     SELECT * FROM tasks;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:49:02.157363 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:49:02.282987 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.286203 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.290641 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.290641 Established persistent connection to master server from 169.254.14.48
+2025/05/14 16:49:02.294420 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.294420 Sending request to master: {"query":"     SHOW DATABASES;\n     USE master_db;\n     SHOW TABLES;\n     SELECT * FROM tasks;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:49:02.294420 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:49:02.411718 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.416445 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.419734 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.419734 Established persistent connection to master server from 169.254.14.48
+2025/05/14 16:49:02.424039 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.424039 Sending request to master: {"query":"     SHOW DATABASES;\n     USE master_db;\n     SHOW TABLES;\n     SELECT * FROM tasks;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:49:02.424039 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:49:02.626886 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.630572 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.634855 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.634855 Established persistent connection to master server from 169.254.14.48
+2025/05/14 16:49:02.638720 Found local IP address: 169.254.14.48
+2025/05/14 16:49:02.638720 Sending request to master: {"query":"     SHOW DATABASES;\n     USE master_db;\n     SHOW TABLES;\n     SELECT * FROM tasks;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:49:02.639268 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:49:23.063649 Found local IP address: 169.254.14.48
+2025/05/14 16:49:23.064370 Heartbeat failed: heartbeat failed: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'USE master_db;
+     SHOW TABLES;
+     SELECT * FROM tasks' at line 2
+2025/05/14 16:49:23.073086 Found local IP address: 169.254.14.48
+2025/05/14 16:49:23.077760 Found local IP address: 169.254.14.48
+2025/05/14 16:49:23.077760 Established persistent connection to master server from 169.254.14.48
+2025/05/14 16:49:31.455255 Found local IP address: 169.254.14.48
+2025/05/14 16:49:31.457326 Found local IP address: 169.254.14.48
+2025/05/14 16:49:31.457326 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:49:31.602314 Found local IP address: 169.254.14.48
+2025/05/14 16:49:31.606759 Found local IP address: 169.254.14.48
+2025/05/14 16:49:31.606759 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:49:31.755424 Found local IP address: 169.254.14.48
+2025/05/14 16:49:31.758457 Found local IP address: 169.254.14.48
+2025/05/14 16:49:31.759666 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:49:31.886591 Found local IP address: 169.254.14.48
+2025/05/14 16:49:31.890122 Found local IP address: 169.254.14.48
+2025/05/14 16:49:31.890805 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:49:32.014509 Found local IP address: 169.254.14.48
+2025/05/14 16:49:32.017644 Found local IP address: 169.254.14.48
+2025/05/14 16:49:32.017644 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:49:32.152026 Found local IP address: 169.254.14.48
+2025/05/14 16:49:32.156185 Found local IP address: 169.254.14.48
+2025/05/14 16:49:32.156710 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:49:32.287882 Found local IP address: 169.254.14.48
+2025/05/14 16:49:32.292707 Found local IP address: 169.254.14.48
+2025/05/14 16:49:32.292707 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:49:32.420367 Found local IP address: 169.254.14.48
+2025/05/14 16:49:32.422417 Found local IP address: 169.254.14.48
+2025/05/14 16:49:32.422417 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:49:32.633511 Found local IP address: 169.254.14.48
+2025/05/14 16:49:32.635508 Found local IP address: 169.254.14.48
+2025/05/14 16:49:32.636027 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:49:53.064756 Found local IP address: 169.254.14.48
+2025/05/14 16:49:53.067487 Found local IP address: 169.254.14.48
+2025/05/14 16:49:53.067487 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:49:53.077731 Found local IP address: 169.254.14.48
+2025/05/14 16:49:53.080378 Found local IP address: 169.254.14.48
+2025/05/14 16:49:53.080378 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:01.453231 Found local IP address: 169.254.14.48
+2025/05/14 16:50:01.457012 Found local IP address: 169.254.14.48
+2025/05/14 16:50:01.457526 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:01.605234 Found local IP address: 169.254.14.48
+2025/05/14 16:50:01.607746 Found local IP address: 169.254.14.48
+2025/05/14 16:50:01.607746 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:01.753770 Found local IP address: 169.254.14.48
+2025/05/14 16:50:01.756728 Found local IP address: 169.254.14.48
+2025/05/14 16:50:01.756728 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:01.887927 Found local IP address: 169.254.14.48
+2025/05/14 16:50:01.891994 Found local IP address: 169.254.14.48
+2025/05/14 16:50:01.891994 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:02.015609 Found local IP address: 169.254.14.48
+2025/05/14 16:50:02.018593 Found local IP address: 169.254.14.48
+2025/05/14 16:50:02.019101 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:02.150241 Found local IP address: 169.254.14.48
+2025/05/14 16:50:02.154430 Found local IP address: 169.254.14.48
+2025/05/14 16:50:02.154430 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:02.288724 Found local IP address: 169.254.14.48
+2025/05/14 16:50:02.292156 Found local IP address: 169.254.14.48
+2025/05/14 16:50:02.292156 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:02.419564 Found local IP address: 169.254.14.48
+2025/05/14 16:50:02.422503 Found local IP address: 169.254.14.48
+2025/05/14 16:50:02.422503 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:02.631845 Found local IP address: 169.254.14.48
+2025/05/14 16:50:02.635762 Found local IP address: 169.254.14.48
+2025/05/14 16:50:02.636287 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:10.371192 Found local IP address: 169.254.14.48
+2025/05/14 16:50:10.373315 Found local IP address: 169.254.14.48
+2025/05/14 16:50:10.373315 Sending request to master: {"query":"SELECT * FROM master_db.tasks","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 16:50:10.373842 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:50:23.065339 Found local IP address: 169.254.14.48
+2025/05/14 16:50:23.068545 Found local IP address: 169.254.14.48
+2025/05/14 16:50:23.070370 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:23.076663 Found local IP address: 169.254.14.48
+2025/05/14 16:50:23.080921 Found local IP address: 169.254.14.48
+2025/05/14 16:50:23.080921 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:23.861714 Found local IP address: 169.254.14.48
+2025/05/14 16:50:23.864306 Found local IP address: 169.254.14.48
+2025/05/14 16:50:23.864306 Sending request to master: {"query":"SELECT * FROM master_db.tasks","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 16:50:23.864306 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:50:24.409308 Found local IP address: 169.254.14.48
+2025/05/14 16:50:24.414025 Found local IP address: 169.254.14.48
+2025/05/14 16:50:24.414025 Sending request to master: {"query":"SELECT * FROM master_db.tasks","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 16:50:24.414564 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:50:24.573230 Found local IP address: 169.254.14.48
+2025/05/14 16:50:24.576503 Found local IP address: 169.254.14.48
+2025/05/14 16:50:24.576503 Sending request to master: {"query":"SELECT * FROM master_db.tasks","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 16:50:24.576503 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:50:24.718727 Found local IP address: 169.254.14.48
+2025/05/14 16:50:24.723098 Found local IP address: 169.254.14.48
+2025/05/14 16:50:24.723098 Sending request to master: {"query":"SELECT * FROM master_db.tasks","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 16:50:24.723635 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:50:24.874521 Found local IP address: 169.254.14.48
+2025/05/14 16:50:24.877736 Found local IP address: 169.254.14.48
+2025/05/14 16:50:24.877736 Sending request to master: {"query":"SELECT * FROM master_db.tasks","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 16:50:24.878277 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:50:25.022980 Found local IP address: 169.254.14.48
+2025/05/14 16:50:25.027883 Found local IP address: 169.254.14.48
+2025/05/14 16:50:25.027883 Sending request to master: {"query":"SELECT * FROM master_db.tasks","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 16:50:25.028433 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:50:25.215501 Found local IP address: 169.254.14.48
+2025/05/14 16:50:25.218753 Found local IP address: 169.254.14.48
+2025/05/14 16:50:25.218753 Sending request to master: {"query":"SELECT * FROM master_db.tasks","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 16:50:25.219501 Received response from master: {"status":"ok","message":"Select executed successfully","header":["1"],"rows":[[1]]}
+2025/05/14 16:50:25.438043 Found local IP address: 169.254.14.48
+2025/05/14 16:50:25.443849 Found local IP address: 169.254.14.48
+2025/05/14 16:50:25.443849 Sending request to master: {"query":"SELECT * FROM master_db.tasks","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 16:50:25.444390 Received response from master: {"status":"ok","message":"Select executed successfully","header":["id","title","status"],"rows":[[1,"Setup Database","ok"],[2,"Configure Slave","pending"],[3,"Test Replication","in_progress"],[4,"Implement Master-Slave Replication","pending"]]}
+2025/05/14 16:50:25.914745 Received request: GET /
+2025/05/14 16:50:25.914745 Serving from directory: ./web
+2025/05/14 16:50:25.914745 File exists: ./web/index.html
+2025/05/14 16:50:31.456507 Found local IP address: 169.254.14.48
+2025/05/14 16:50:31.462580 Found local IP address: 169.254.14.48
+2025/05/14 16:50:31.462580 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:31.607385 Found local IP address: 169.254.14.48
+2025/05/14 16:50:31.612961 Found local IP address: 169.254.14.48
+2025/05/14 16:50:31.613489 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:31.755214 Found local IP address: 169.254.14.48
+2025/05/14 16:50:31.761369 Found local IP address: 169.254.14.48
+2025/05/14 16:50:31.761369 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:31.889320 Found local IP address: 169.254.14.48
+2025/05/14 16:50:31.895709 Found local IP address: 169.254.14.48
+2025/05/14 16:50:31.895709 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:32.017243 Found local IP address: 169.254.14.48
+2025/05/14 16:50:32.022338 Found local IP address: 169.254.14.48
+2025/05/14 16:50:32.022338 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:32.153330 Found local IP address: 169.254.14.48
+2025/05/14 16:50:32.159556 Found local IP address: 169.254.14.48
+2025/05/14 16:50:32.160146 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:32.291048 Found local IP address: 169.254.14.48
+2025/05/14 16:50:32.295350 Found local IP address: 169.254.14.48
+2025/05/14 16:50:32.295350 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:32.422057 Found local IP address: 169.254.14.48
+2025/05/14 16:50:32.427731 Found local IP address: 169.254.14.48
+2025/05/14 16:50:32.427731 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:32.633705 Found local IP address: 169.254.14.48
+2025/05/14 16:50:32.639769 Found local IP address: 169.254.14.48
+2025/05/14 16:50:32.639769 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:36.512051 Found local IP address: 169.254.14.48
+2025/05/14 16:50:36.516843 Found local IP address: 169.254.14.48
+2025/05/14 16:50:36.516843 Sending request to master: {"query":"SELECT * FROM master_db.tasks","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 16:50:36.517817 Received response from master: {"status":"ok","message":"Select executed successfully","header":["id","title","status"],"rows":[[1,"Setup Database","ok"],[2,"Configure Slave","pending"],[3,"Test Replication","in_progress"],[4,"Implement Master-Slave Replication","pending"]]}
+2025/05/14 16:50:53.064817 Found local IP address: 169.254.14.48
+2025/05/14 16:50:53.075300 Found local IP address: 169.254.14.48
+2025/05/14 16:50:53.075300 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:50:53.084206 Found local IP address: 169.254.14.48
+2025/05/14 16:50:53.091488 Found local IP address: 169.254.14.48
+2025/05/14 16:50:53.091488 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:01.457559 Found local IP address: 169.254.14.48
+2025/05/14 16:51:01.461022 Found local IP address: 169.254.14.48
+2025/05/14 16:51:01.461022 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:01.605981 Found local IP address: 169.254.14.48
+2025/05/14 16:51:01.610417 Found local IP address: 169.254.14.48
+2025/05/14 16:51:01.610417 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:01.754855 Found local IP address: 169.254.14.48
+2025/05/14 16:51:01.760083 Found local IP address: 169.254.14.48
+2025/05/14 16:51:01.760083 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:01.888231 Found local IP address: 169.254.14.48
+2025/05/14 16:51:01.890887 Found local IP address: 169.254.14.48
+2025/05/14 16:51:01.890887 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:02.019108 Found local IP address: 169.254.14.48
+2025/05/14 16:51:02.050336 Found local IP address: 169.254.14.48
+2025/05/14 16:51:02.050336 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:02.151309 Found local IP address: 169.254.14.48
+2025/05/14 16:51:02.157748 Found local IP address: 169.254.14.48
+2025/05/14 16:51:02.157748 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:02.290762 Found local IP address: 169.254.14.48
+2025/05/14 16:51:02.294867 Found local IP address: 169.254.14.48
+2025/05/14 16:51:02.294867 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:02.421981 Found local IP address: 169.254.14.48
+2025/05/14 16:51:02.425868 Found local IP address: 169.254.14.48
+2025/05/14 16:51:02.426390 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:02.633288 Found local IP address: 169.254.14.48
+2025/05/14 16:51:02.638421 Found local IP address: 169.254.14.48
+2025/05/14 16:51:02.638421 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:03.760758 Found local IP address: 169.254.14.48
+2025/05/14 16:51:03.765120 Found local IP address: 169.254.14.48
+2025/05/14 16:51:03.765120 Sending request to master: {"query":"SELECT * FROM emplyee.emp","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 16:51:03.765647 Received response from master: {"status":"ok","message":"Select executed successfully","header":["name","id"],"rows":[["\"sfdg\"",5]]}
+2025/05/14 16:51:16.412444 Found local IP address: 169.254.14.48
+2025/05/14 16:51:16.416221 Found local IP address: 169.254.14.48
+2025/05/14 16:51:16.416221 Sending request to master: {"query":"SELECT * FROM emplyee.emp","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 16:51:16.416757 Received response from master: {"status":"ok","message":"Select executed successfully","header":["name","id"],"rows":[["\"sfdg\"",5]]}
+2025/05/14 16:51:23.065351 Found local IP address: 169.254.14.48
+2025/05/14 16:51:23.070717 Found local IP address: 169.254.14.48
+2025/05/14 16:51:23.070717 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:23.078642 Found local IP address: 169.254.14.48
+2025/05/14 16:51:23.084177 Found local IP address: 169.254.14.48
+2025/05/14 16:51:23.084177 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:25.359055 Found local IP address: 169.254.14.48
+2025/05/14 16:51:25.363526 Found local IP address: 169.254.14.48
+2025/05/14 16:51:25.364078 Sending request to master: {"query":"SELECT * FROM master_db.tasks","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 16:51:25.364078 Received response from master: {"status":"ok","message":"Select executed successfully","header":["id","title","status"],"rows":[[1,"Setup Database","ok"],[2,"Configure Slave","pending"],[3,"Test Replication","in_progress"],[4,"Implement Master-Slave Replication","pending"]]}
+2025/05/14 16:51:31.455635 Found local IP address: 169.254.14.48
+2025/05/14 16:51:31.459993 Found local IP address: 169.254.14.48
+2025/05/14 16:51:31.459993 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:31.606231 Found local IP address: 169.254.14.48
+2025/05/14 16:51:31.611007 Found local IP address: 169.254.14.48
+2025/05/14 16:51:31.611007 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:31.756021 Found local IP address: 169.254.14.48
+2025/05/14 16:51:31.761213 Found local IP address: 169.254.14.48
+2025/05/14 16:51:31.761213 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:31.890815 Found local IP address: 169.254.14.48
+2025/05/14 16:51:31.896037 Found local IP address: 169.254.14.48
+2025/05/14 16:51:31.896037 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:32.016452 Found local IP address: 169.254.14.48
+2025/05/14 16:51:32.043660 Found local IP address: 169.254.14.48
+2025/05/14 16:51:32.043660 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:32.151755 Found local IP address: 169.254.14.48
+2025/05/14 16:51:32.158231 Found local IP address: 169.254.14.48
+2025/05/14 16:51:32.158231 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:32.291456 Found local IP address: 169.254.14.48
+2025/05/14 16:51:32.295732 Found local IP address: 169.254.14.48
+2025/05/14 16:51:32.295732 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:32.422004 Found local IP address: 169.254.14.48
+2025/05/14 16:51:32.428529 Found local IP address: 169.254.14.48
+2025/05/14 16:51:32.428529 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:32.634650 Found local IP address: 169.254.14.48
+2025/05/14 16:51:32.639472 Found local IP address: 169.254.14.48
+2025/05/14 16:51:32.639472 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:53.062242 Found local IP address: 169.254.14.48
+2025/05/14 16:51:53.067488 Found local IP address: 169.254.14.48
+2025/05/14 16:51:53.067488 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:51:53.077992 Found local IP address: 169.254.14.48
+2025/05/14 16:51:53.082261 Found local IP address: 169.254.14.48
+2025/05/14 16:51:53.082261 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:01.456169 Found local IP address: 169.254.14.48
+2025/05/14 16:52:01.459809 Found local IP address: 169.254.14.48
+2025/05/14 16:52:01.459809 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:01.605689 Found local IP address: 169.254.14.48
+2025/05/14 16:52:01.611167 Found local IP address: 169.254.14.48
+2025/05/14 16:52:01.611167 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:01.755320 Found local IP address: 169.254.14.48
+2025/05/14 16:52:01.760780 Found local IP address: 169.254.14.48
+2025/05/14 16:52:01.760780 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:01.899068 Found local IP address: 169.254.14.48
+2025/05/14 16:52:01.912397 Found local IP address: 169.254.14.48
+2025/05/14 16:52:01.912397 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:02.016612 Found local IP address: 169.254.14.48
+2025/05/14 16:52:02.038685 Found local IP address: 169.254.14.48
+2025/05/14 16:52:02.038685 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:02.153954 Found local IP address: 169.254.14.48
+2025/05/14 16:52:02.159310 Found local IP address: 169.254.14.48
+2025/05/14 16:52:02.159838 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:02.287281 Found local IP address: 169.254.14.48
+2025/05/14 16:52:02.293388 Found local IP address: 169.254.14.48
+2025/05/14 16:52:02.293388 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:02.420290 Found local IP address: 169.254.14.48
+2025/05/14 16:52:02.425951 Found local IP address: 169.254.14.48
+2025/05/14 16:52:02.425951 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:02.634015 Found local IP address: 169.254.14.48
+2025/05/14 16:52:02.638891 Found local IP address: 169.254.14.48
+2025/05/14 16:52:02.638891 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:04.322965 Found local IP address: 169.254.14.48
+2025/05/14 16:52:04.328958 Found local IP address: 169.254.14.48
+2025/05/14 16:52:04.328958 Sending request to master: {"query":"UPDATE master_db.tasks SET title = 'ww' WHERE Setup Database\t","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:52:04.329489 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Database' at line 1"}
+2025/05/14 16:52:23.065499 Found local IP address: 169.254.14.48
+2025/05/14 16:52:23.070544 Found local IP address: 169.254.14.48
+2025/05/14 16:52:23.070544 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:23.077987 Found local IP address: 169.254.14.48
+2025/05/14 16:52:23.081776 Found local IP address: 169.254.14.48
+2025/05/14 16:52:23.081776 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:26.469216 Found local IP address: 169.254.14.48
+2025/05/14 16:52:26.474118 Found local IP address: 169.254.14.48
+2025/05/14 16:52:26.474118 Sending request to master: {"query":"UPDATE master_db.tasks SET title = 'ww' WHERE title = Setup Database\t","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:52:26.475252 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Database' at line 1"}
+2025/05/14 16:52:31.455653 Found local IP address: 169.254.14.48
+2025/05/14 16:52:31.459961 Found local IP address: 169.254.14.48
+2025/05/14 16:52:31.459961 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:31.604578 Found local IP address: 169.254.14.48
+2025/05/14 16:52:31.610349 Found local IP address: 169.254.14.48
+2025/05/14 16:52:31.610884 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:31.753463 Found local IP address: 169.254.14.48
+2025/05/14 16:52:31.757844 Found local IP address: 169.254.14.48
+2025/05/14 16:52:31.757844 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:31.889262 Found local IP address: 169.254.14.48
+2025/05/14 16:52:31.894249 Found local IP address: 169.254.14.48
+2025/05/14 16:52:31.894249 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:32.013985 Found local IP address: 169.254.14.48
+2025/05/14 16:52:32.049848 Found local IP address: 169.254.14.48
+2025/05/14 16:52:32.049848 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:32.152805 Found local IP address: 169.254.14.48
+2025/05/14 16:52:32.157065 Found local IP address: 169.254.14.48
+2025/05/14 16:52:32.157065 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:32.288134 Found local IP address: 169.254.14.48
+2025/05/14 16:52:32.294859 Found local IP address: 169.254.14.48
+2025/05/14 16:52:32.294859 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:32.420650 Found local IP address: 169.254.14.48
+2025/05/14 16:52:32.424618 Found local IP address: 169.254.14.48
+2025/05/14 16:52:32.424618 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:32.636126 Found local IP address: 169.254.14.48
+2025/05/14 16:52:32.639039 Found local IP address: 169.254.14.48
+2025/05/14 16:52:32.639039 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:53.063364 Found local IP address: 169.254.14.48
+2025/05/14 16:52:53.070563 Found local IP address: 169.254.14.48
+2025/05/14 16:52:53.070563 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:52:53.077488 Found local IP address: 169.254.14.48
+2025/05/14 16:52:53.082874 Found local IP address: 169.254.14.48
+2025/05/14 16:52:53.082874 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:01.457724 Found local IP address: 169.254.14.48
+2025/05/14 16:53:01.461608 Found local IP address: 169.254.14.48
+2025/05/14 16:53:01.461608 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:01.606925 Found local IP address: 169.254.14.48
+2025/05/14 16:53:01.614123 Found local IP address: 169.254.14.48
+2025/05/14 16:53:01.614123 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:01.754469 Found local IP address: 169.254.14.48
+2025/05/14 16:53:01.759978 Found local IP address: 169.254.14.48
+2025/05/14 16:53:01.759978 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:01.890209 Found local IP address: 169.254.14.48
+2025/05/14 16:53:01.896509 Found local IP address: 169.254.14.48
+2025/05/14 16:53:01.896509 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:02.017584 Found local IP address: 169.254.14.48
+2025/05/14 16:53:02.022372 Found local IP address: 169.254.14.48
+2025/05/14 16:53:02.022372 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:02.154717 Found local IP address: 169.254.14.48
+2025/05/14 16:53:02.158635 Found local IP address: 169.254.14.48
+2025/05/14 16:53:02.158635 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:02.289093 Found local IP address: 169.254.14.48
+2025/05/14 16:53:02.294341 Found local IP address: 169.254.14.48
+2025/05/14 16:53:02.294341 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:02.423095 Found local IP address: 169.254.14.48
+2025/05/14 16:53:02.428002 Found local IP address: 169.254.14.48
+2025/05/14 16:53:02.428002 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:02.634719 Found local IP address: 169.254.14.48
+2025/05/14 16:53:02.640442 Found local IP address: 169.254.14.48
+2025/05/14 16:53:02.640442 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:15.556692 Found local IP address: 169.254.14.48
+2025/05/14 16:53:15.560432 Found local IP address: 169.254.14.48
+2025/05/14 16:53:15.560432 Sending request to master: {"query":"UPDATE master_db.tasks SET title = 'ww' WHERE 1","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:53:15.592154 Received response from master: {"status":"ok","message":"Query executed successfully. Rows affected: 4"}
+2025/05/14 16:53:23.062871 Found local IP address: 169.254.14.48
+2025/05/14 16:53:23.065468 Found local IP address: 169.254.14.48
+2025/05/14 16:53:23.065468 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:23.076972 Found local IP address: 169.254.14.48
+2025/05/14 16:53:23.079911 Found local IP address: 169.254.14.48
+2025/05/14 16:53:23.079911 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:31.453035 Found local IP address: 169.254.14.48
+2025/05/14 16:53:31.458156 Found local IP address: 169.254.14.48
+2025/05/14 16:53:31.458156 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:31.605020 Found local IP address: 169.254.14.48
+2025/05/14 16:53:31.607947 Found local IP address: 169.254.14.48
+2025/05/14 16:53:31.607947 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:31.754980 Found local IP address: 169.254.14.48
+2025/05/14 16:53:31.758173 Found local IP address: 169.254.14.48
+2025/05/14 16:53:31.758173 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:31.888493 Found local IP address: 169.254.14.48
+2025/05/14 16:53:31.891936 Found local IP address: 169.254.14.48
+2025/05/14 16:53:31.891936 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:32.016199 Found local IP address: 169.254.14.48
+2025/05/14 16:53:32.034422 Found local IP address: 169.254.14.48
+2025/05/14 16:53:32.034422 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:32.153486 Found local IP address: 169.254.14.48
+2025/05/14 16:53:32.157161 Found local IP address: 169.254.14.48
+2025/05/14 16:53:32.157161 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:32.288686 Found local IP address: 169.254.14.48
+2025/05/14 16:53:32.292424 Found local IP address: 169.254.14.48
+2025/05/14 16:53:32.292424 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:32.421173 Found local IP address: 169.254.14.48
+2025/05/14 16:53:32.428990 Found local IP address: 169.254.14.48
+2025/05/14 16:53:32.428990 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:32.633818 Found local IP address: 169.254.14.48
+2025/05/14 16:53:32.637874 Found local IP address: 169.254.14.48
+2025/05/14 16:53:32.637874 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:53.062681 Found local IP address: 169.254.14.48
+2025/05/14 16:53:53.065759 Found local IP address: 169.254.14.48
+2025/05/14 16:53:53.065759 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:53:53.075508 Found local IP address: 169.254.14.48
+2025/05/14 16:53:53.078349 Found local IP address: 169.254.14.48
+2025/05/14 16:53:53.078349 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:01.456007 Found local IP address: 169.254.14.48
+2025/05/14 16:54:01.460505 Found local IP address: 169.254.14.48
+2025/05/14 16:54:01.460505 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:01.603974 Found local IP address: 169.254.14.48
+2025/05/14 16:54:01.608946 Found local IP address: 169.254.14.48
+2025/05/14 16:54:01.608946 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:01.756752 Found local IP address: 169.254.14.48
+2025/05/14 16:54:01.761013 Found local IP address: 169.254.14.48
+2025/05/14 16:54:01.761013 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:01.888985 Found local IP address: 169.254.14.48
+2025/05/14 16:54:01.893079 Found local IP address: 169.254.14.48
+2025/05/14 16:54:01.893079 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:02.015912 Found local IP address: 169.254.14.48
+2025/05/14 16:54:02.021249 Found local IP address: 169.254.14.48
+2025/05/14 16:54:02.021249 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:02.151758 Found local IP address: 169.254.14.48
+2025/05/14 16:54:02.156571 Found local IP address: 169.254.14.48
+2025/05/14 16:54:02.156571 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:02.290324 Found local IP address: 169.254.14.48
+2025/05/14 16:54:02.294728 Found local IP address: 169.254.14.48
+2025/05/14 16:54:02.294728 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:02.420251 Found local IP address: 169.254.14.48
+2025/05/14 16:54:02.425335 Found local IP address: 169.254.14.48
+2025/05/14 16:54:02.425335 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:02.633678 Found local IP address: 169.254.14.48
+2025/05/14 16:54:02.638325 Found local IP address: 169.254.14.48
+2025/05/14 16:54:02.638325 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:23.064673 Found local IP address: 169.254.14.48
+2025/05/14 16:54:23.068749 Found local IP address: 169.254.14.48
+2025/05/14 16:54:23.068749 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:23.077806 Found local IP address: 169.254.14.48
+2025/05/14 16:54:23.081549 Found local IP address: 169.254.14.48
+2025/05/14 16:54:23.081549 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:31.456351 Found local IP address: 169.254.14.48
+2025/05/14 16:54:31.459348 Found local IP address: 169.254.14.48
+2025/05/14 16:54:31.459348 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:31.605647 Found local IP address: 169.254.14.48
+2025/05/14 16:54:31.611226 Found local IP address: 169.254.14.48
+2025/05/14 16:54:31.611226 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:31.755816 Found local IP address: 169.254.14.48
+2025/05/14 16:54:31.760641 Found local IP address: 169.254.14.48
+2025/05/14 16:54:31.760641 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:31.889146 Found local IP address: 169.254.14.48
+2025/05/14 16:54:31.893287 Found local IP address: 169.254.14.48
+2025/05/14 16:54:31.893287 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:32.016401 Found local IP address: 169.254.14.48
+2025/05/14 16:54:32.021232 Found local IP address: 169.254.14.48
+2025/05/14 16:54:32.021232 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:32.152776 Found local IP address: 169.254.14.48
+2025/05/14 16:54:32.158620 Found local IP address: 169.254.14.48
+2025/05/14 16:54:32.158620 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:32.288085 Found local IP address: 169.254.14.48
+2025/05/14 16:54:32.294418 Found local IP address: 169.254.14.48
+2025/05/14 16:54:32.294418 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:32.419903 Found local IP address: 169.254.14.48
+2025/05/14 16:54:32.423968 Found local IP address: 169.254.14.48
+2025/05/14 16:54:32.423968 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:32.633259 Found local IP address: 169.254.14.48
+2025/05/14 16:54:32.638249 Found local IP address: 169.254.14.48
+2025/05/14 16:54:32.638249 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:53.061397 Found local IP address: 169.254.14.48
+2025/05/14 16:54:53.066012 Found local IP address: 169.254.14.48
+2025/05/14 16:54:53.066012 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:54:53.077630 Found local IP address: 169.254.14.48
+2025/05/14 16:54:53.080213 Found local IP address: 169.254.14.48
+2025/05/14 16:54:53.080213 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:01.453888 Found local IP address: 169.254.14.48
+2025/05/14 16:55:01.458097 Found local IP address: 169.254.14.48
+2025/05/14 16:55:01.458097 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:01.603862 Found local IP address: 169.254.14.48
+2025/05/14 16:55:01.608055 Found local IP address: 169.254.14.48
+2025/05/14 16:55:01.608055 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:01.752499 Found local IP address: 169.254.14.48
+2025/05/14 16:55:01.756526 Found local IP address: 169.254.14.48
+2025/05/14 16:55:01.756526 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:01.889212 Found local IP address: 169.254.14.48
+2025/05/14 16:55:01.891651 Found local IP address: 169.254.14.48
+2025/05/14 16:55:01.891651 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:02.016138 Found local IP address: 169.254.14.48
+2025/05/14 16:55:02.019128 Found local IP address: 169.254.14.48
+2025/05/14 16:55:02.019128 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:02.151725 Found local IP address: 169.254.14.48
+2025/05/14 16:55:02.153986 Found local IP address: 169.254.14.48
+2025/05/14 16:55:02.153986 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:02.288190 Found local IP address: 169.254.14.48
+2025/05/14 16:55:02.292484 Found local IP address: 169.254.14.48
+2025/05/14 16:55:02.292484 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:02.420378 Found local IP address: 169.254.14.48
+2025/05/14 16:55:02.423766 Found local IP address: 169.254.14.48
+2025/05/14 16:55:02.423766 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:02.632745 Found local IP address: 169.254.14.48
+2025/05/14 16:55:02.637955 Found local IP address: 169.254.14.48
+2025/05/14 16:55:02.637955 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:11.609358 Found local IP address: 169.254.14.48
+2025/05/14 16:55:11.611985 Found local IP address: 169.254.14.48
+2025/05/14 16:55:11.611985 Sending request to master: {"query":"INSERT INTO `tasks`(`id`, `title`, `status`) VALUES ('10','[value-2]','[value-3]')","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:55:11.612521 Received response from master: {"status":"error","message":"Error 1046 (3D000): No database selected"}
+2025/05/14 16:55:23.064244 Found local IP address: 169.254.14.48
+2025/05/14 16:55:23.070123 Found local IP address: 169.254.14.48
+2025/05/14 16:55:23.070123 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:23.079001 Found local IP address: 169.254.14.48
+2025/05/14 16:55:23.083392 Found local IP address: 169.254.14.48
+2025/05/14 16:55:23.083392 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:31.455670 Found local IP address: 169.254.14.48
+2025/05/14 16:55:31.460145 Found local IP address: 169.254.14.48
+2025/05/14 16:55:31.460145 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:31.603988 Found local IP address: 169.254.14.48
+2025/05/14 16:55:31.609787 Found local IP address: 169.254.14.48
+2025/05/14 16:55:31.609787 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:31.754131 Found local IP address: 169.254.14.48
+2025/05/14 16:55:31.760785 Found local IP address: 169.254.14.48
+2025/05/14 16:55:31.760785 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:31.786028 Found local IP address: 169.254.14.48
+2025/05/14 16:55:31.792041 Found local IP address: 169.254.14.48
+2025/05/14 16:55:31.792041 Sending request to master: {"query":"use database master_db;\nINSERT INTO `tasks`(`id`, `title`, `status`) VALUES ('10','[value-2]','[value-3]')","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:55:31.792574 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'database master_db;\nINSERT INTO `tasks`(`id`, `title`, `status`) VALUES ('10'...' at line 1"}
+2025/05/14 16:55:31.890210 Found local IP address: 169.254.14.48
+2025/05/14 16:55:31.893711 Found local IP address: 169.254.14.48
+2025/05/14 16:55:31.893711 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:32.013979 Found local IP address: 169.254.14.48
+2025/05/14 16:55:32.020681 Found local IP address: 169.254.14.48
+2025/05/14 16:55:32.020681 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:32.151246 Found local IP address: 169.254.14.48
+2025/05/14 16:55:32.156433 Found local IP address: 169.254.14.48
+2025/05/14 16:55:32.156433 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:32.289461 Found local IP address: 169.254.14.48
+2025/05/14 16:55:32.294675 Found local IP address: 169.254.14.48
+2025/05/14 16:55:32.294675 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:32.421082 Found local IP address: 169.254.14.48
+2025/05/14 16:55:32.425189 Found local IP address: 169.254.14.48
+2025/05/14 16:55:32.425189 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:32.634976 Found local IP address: 169.254.14.48
+2025/05/14 16:55:32.639215 Found local IP address: 169.254.14.48
+2025/05/14 16:55:32.639215 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:53.063815 Found local IP address: 169.254.14.48
+2025/05/14 16:55:53.067062 Found local IP address: 169.254.14.48
+2025/05/14 16:55:53.067062 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:53.077637 Found local IP address: 169.254.14.48
+2025/05/14 16:55:53.080770 Found local IP address: 169.254.14.48
+2025/05/14 16:55:53.080770 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:55:54.639351 Found local IP address: 169.254.14.48
+2025/05/14 16:55:54.642123 Found local IP address: 169.254.14.48
+2025/05/14 16:55:54.642123 Sending request to master: {"query":"use database master_db;\nINSERT INTO tasks (`id`, `title`, `status`) VALUES ('10','[value-2]','[value-3]')","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:55:54.642664 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'database master_db;\nINSERT INTO tasks (`id`, `title`, `status`) VALUES ('10',...' at line 1"}
+2025/05/14 16:56:01.456013 Found local IP address: 169.254.14.48
+2025/05/14 16:56:01.459773 Found local IP address: 169.254.14.48
+2025/05/14 16:56:01.459773 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:01.607755 Found local IP address: 169.254.14.48
+2025/05/14 16:56:01.611475 Found local IP address: 169.254.14.48
+2025/05/14 16:56:01.611475 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:01.755569 Found local IP address: 169.254.14.48
+2025/05/14 16:56:01.759568 Found local IP address: 169.254.14.48
+2025/05/14 16:56:01.759568 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:01.890449 Found local IP address: 169.254.14.48
+2025/05/14 16:56:01.896695 Found local IP address: 169.254.14.48
+2025/05/14 16:56:01.896695 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:02.016375 Found local IP address: 169.254.14.48
+2025/05/14 16:56:02.020397 Found local IP address: 169.254.14.48
+2025/05/14 16:56:02.020397 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:02.151492 Found local IP address: 169.254.14.48
+2025/05/14 16:56:02.156309 Found local IP address: 169.254.14.48
+2025/05/14 16:56:02.156309 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:02.290640 Found local IP address: 169.254.14.48
+2025/05/14 16:56:02.294983 Found local IP address: 169.254.14.48
+2025/05/14 16:56:02.294983 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:02.420451 Found local IP address: 169.254.14.48
+2025/05/14 16:56:02.423910 Found local IP address: 169.254.14.48
+2025/05/14 16:56:02.423910 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:02.635276 Found local IP address: 169.254.14.48
+2025/05/14 16:56:02.639701 Found local IP address: 169.254.14.48
+2025/05/14 16:56:02.639701 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:13.624518 Found local IP address: 169.254.14.48
+2025/05/14 16:56:13.628182 Found local IP address: 169.254.14.48
+2025/05/14 16:56:13.628182 Sending request to master: {"query":"use database master_db;\nINSERT INTO tasks (id, title, status) VALUES ('10','[value-2]','[value-3]')","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:56:13.628697 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'database master_db;\nINSERT INTO tasks (id, title, status) VALUES ('10','[valu...' at line 1"}
+2025/05/14 16:56:23.064474 Found local IP address: 169.254.14.48
+2025/05/14 16:56:23.068632 Found local IP address: 169.254.14.48
+2025/05/14 16:56:23.068632 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:23.077608 Found local IP address: 169.254.14.48
+2025/05/14 16:56:23.081065 Found local IP address: 169.254.14.48
+2025/05/14 16:56:23.081065 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:25.753609 Received request: GET /
+2025/05/14 16:56:25.753609 Serving from directory: ./web
+2025/05/14 16:56:25.753609 File exists: ./web/index.html
+2025/05/14 16:56:26.468717 Received request: GET /
+2025/05/14 16:56:26.468717 Serving from directory: ./web
+2025/05/14 16:56:26.468717 File exists: ./web/index.html
+2025/05/14 16:56:26.858742 Received request: GET /style.css
+2025/05/14 16:56:26.858742 Serving from directory: ./web
+2025/05/14 16:56:26.858742 File exists: ./web/style.css
+2025/05/14 16:56:27.177872 Received request: GET /script.js
+2025/05/14 16:56:27.177872 Serving from directory: ./web
+2025/05/14 16:56:27.177872 File exists: ./web/script.js
+2025/05/14 16:56:27.370012 Received request: GET /favicon.ico
+2025/05/14 16:56:27.370012 Serving from directory: ./web
+2025/05/14 16:56:27.370012 File not found: ./web/favicon.ico
+2025/05/14 16:56:31.455588 Found local IP address: 169.254.14.48
+2025/05/14 16:56:31.459383 Found local IP address: 169.254.14.48
+2025/05/14 16:56:31.459383 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:31.604392 Found local IP address: 169.254.14.48
+2025/05/14 16:56:31.610254 Found local IP address: 169.254.14.48
+2025/05/14 16:56:31.610254 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:31.755179 Found local IP address: 169.254.14.48
+2025/05/14 16:56:31.761453 Found local IP address: 169.254.14.48
+2025/05/14 16:56:31.761453 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:31.888338 Found local IP address: 169.254.14.48
+2025/05/14 16:56:31.893712 Found local IP address: 169.254.14.48
+2025/05/14 16:56:31.893712 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:32.018122 Found local IP address: 169.254.14.48
+2025/05/14 16:56:32.023827 Found local IP address: 169.254.14.48
+2025/05/14 16:56:32.023827 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:32.153142 Found local IP address: 169.254.14.48
+2025/05/14 16:56:32.157070 Found local IP address: 169.254.14.48
+2025/05/14 16:56:32.157070 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:32.290576 Found local IP address: 169.254.14.48
+2025/05/14 16:56:32.294825 Found local IP address: 169.254.14.48
+2025/05/14 16:56:32.294825 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:32.421482 Found local IP address: 169.254.14.48
+2025/05/14 16:56:32.425464 Found local IP address: 169.254.14.48
+2025/05/14 16:56:32.425464 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:32.634188 Found local IP address: 169.254.14.48
+2025/05/14 16:56:32.639097 Found local IP address: 169.254.14.48
+2025/05/14 16:56:32.639097 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:36.171299 Found local IP address: 169.254.14.48
+2025/05/14 16:56:36.175033 Found local IP address: 169.254.14.48
+2025/05/14 16:56:36.175033 Sending request to master: {"query":"use database master_db;\nINSERT INTO tasks (id, title, status) VALUES ('10','we','[value-3]')","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:56:36.175557 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'database master_db;\nINSERT INTO tasks (id, title, status) VALUES ('10','we','...' at line 1"}
+2025/05/14 16:56:37.955115 Found local IP address: 169.254.14.48
+2025/05/14 16:56:37.958853 Found local IP address: 169.254.14.48
+2025/05/14 16:56:37.958853 Sending request to master: {"query":"use database master_db;\nINSERT INTO tasks (id, title, status) VALUES ('10','we','[value-3]')","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:56:37.958853 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'database master_db;\nINSERT INTO tasks (id, title, status) VALUES ('10','we','...' at line 1"}
+2025/05/14 16:56:53.062417 Found local IP address: 169.254.14.48
+2025/05/14 16:56:53.066077 Found local IP address: 169.254.14.48
+2025/05/14 16:56:53.066077 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:53.076890 Found local IP address: 169.254.14.48
+2025/05/14 16:56:53.080015 Found local IP address: 169.254.14.48
+2025/05/14 16:56:53.080666 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:56:57.793764 Found local IP address: 169.254.14.48
+2025/05/14 16:56:57.796898 Found local IP address: 169.254.14.48
+2025/05/14 16:56:57.796898 Sending request to master: {"query":"use database master_db;\nINSERT INTO tasks (id, title, status) VALUES (10,we,[value-3])","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:56:57.796898 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'database master_db;\nINSERT INTO tasks (id, title, status) VALUES (10,we,[valu...' at line 1"}
+2025/05/14 16:57:01.456320 Found local IP address: 169.254.14.48
+2025/05/14 16:57:01.460637 Found local IP address: 169.254.14.48
+2025/05/14 16:57:01.482971 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:01.603851 Found local IP address: 169.254.14.48
+2025/05/14 16:57:01.608450 Found local IP address: 169.254.14.48
+2025/05/14 16:57:01.608450 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:01.760869 Found local IP address: 169.254.14.48
+2025/05/14 16:57:01.766234 Found local IP address: 169.254.14.48
+2025/05/14 16:57:01.766234 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:01.889815 Found local IP address: 169.254.14.48
+2025/05/14 16:57:01.893475 Found local IP address: 169.254.14.48
+2025/05/14 16:57:01.893475 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:02.020879 Found local IP address: 169.254.14.48
+2025/05/14 16:57:02.030996 Found local IP address: 169.254.14.48
+2025/05/14 16:57:02.030996 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:02.152521 Found local IP address: 169.254.14.48
+2025/05/14 16:57:02.156427 Found local IP address: 169.254.14.48
+2025/05/14 16:57:02.156427 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:02.291134 Found local IP address: 169.254.14.48
+2025/05/14 16:57:02.295696 Found local IP address: 169.254.14.48
+2025/05/14 16:57:02.295696 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:02.420170 Found local IP address: 169.254.14.48
+2025/05/14 16:57:02.424481 Found local IP address: 169.254.14.48
+2025/05/14 16:57:02.424481 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:02.635359 Found local IP address: 169.254.14.48
+2025/05/14 16:57:02.638756 Found local IP address: 169.254.14.48
+2025/05/14 16:57:02.638756 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:06.463438 Found local IP address: 169.254.14.48
+2025/05/14 16:57:06.466262 Found local IP address: 169.254.14.48
+2025/05/14 16:57:06.466262 Sending request to master: {"query":"use master_db;\nINSERT INTO tasks (id, title, status) VALUES (10,we,[value-3])","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:57:06.466262 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INSERT INTO tasks (id, title, status) VALUES (10,we,[value-3])' at line 2"}
+2025/05/14 16:57:23.064243 Found local IP address: 169.254.14.48
+2025/05/14 16:57:23.067764 Found local IP address: 169.254.14.48
+2025/05/14 16:57:23.067764 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:23.077338 Found local IP address: 169.254.14.48
+2025/05/14 16:57:23.081079 Found local IP address: 169.254.14.48
+2025/05/14 16:57:23.081079 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:31.454878 Found local IP address: 169.254.14.48
+2025/05/14 16:57:31.459789 Found local IP address: 169.254.14.48
+2025/05/14 16:57:31.459789 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:31.605130 Found local IP address: 169.254.14.48
+2025/05/14 16:57:31.610096 Found local IP address: 169.254.14.48
+2025/05/14 16:57:31.610096 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:31.755660 Found local IP address: 169.254.14.48
+2025/05/14 16:57:31.759498 Found local IP address: 169.254.14.48
+2025/05/14 16:57:31.759498 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:31.889075 Found local IP address: 169.254.14.48
+2025/05/14 16:57:31.893866 Found local IP address: 169.254.14.48
+2025/05/14 16:57:31.893866 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:32.015753 Found local IP address: 169.254.14.48
+2025/05/14 16:57:32.020943 Found local IP address: 169.254.14.48
+2025/05/14 16:57:32.020943 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:32.152979 Found local IP address: 169.254.14.48
+2025/05/14 16:57:32.156358 Found local IP address: 169.254.14.48
+2025/05/14 16:57:32.156358 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:32.289443 Found local IP address: 169.254.14.48
+2025/05/14 16:57:32.293002 Found local IP address: 169.254.14.48
+2025/05/14 16:57:32.293002 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:32.421446 Found local IP address: 169.254.14.48
+2025/05/14 16:57:32.424646 Found local IP address: 169.254.14.48
+2025/05/14 16:57:32.424646 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:32.636406 Found local IP address: 169.254.14.48
+2025/05/14 16:57:32.641278 Found local IP address: 169.254.14.48
+2025/05/14 16:57:32.641278 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:44.468189 Found local IP address: 169.254.14.48
+2025/05/14 16:57:44.474125 Found local IP address: 169.254.14.48
+2025/05/14 16:57:44.474125 Sending request to master: {"query":"use master_db;\nINSERT INTO tasks (id, title, status) VALUES ('10','we','[value-3]')","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:57:44.476987 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INSERT INTO tasks (id, title, status) VALUES ('10','we','[value-3]')' at line 2"}
+2025/05/14 16:57:53.064658 Found local IP address: 169.254.14.48
+2025/05/14 16:57:53.072896 Found local IP address: 169.254.14.48
+2025/05/14 16:57:53.072896 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:53.078031 Found local IP address: 169.254.14.48
+2025/05/14 16:57:53.082687 Found local IP address: 169.254.14.48
+2025/05/14 16:57:53.082687 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:57:54.928619 Found local IP address: 169.254.14.48
+2025/05/14 16:57:54.931729 Found local IP address: 169.254.14.48
+2025/05/14 16:57:54.931729 Sending request to master: {"query":"use master_db;\nINSERT INTO tasks ('id', 'title', 'status') VALUES ('10','we','[value-3]')","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:57:54.931729 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INSERT INTO tasks ('id', 'title', 'status') VALUES ('10','we','[value-3]')' at line 2"}
+2025/05/14 16:58:01.456386 Found local IP address: 169.254.14.48
+2025/05/14 16:58:01.459595 Found local IP address: 169.254.14.48
+2025/05/14 16:58:01.459595 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:01.606398 Found local IP address: 169.254.14.48
+2025/05/14 16:58:01.612911 Found local IP address: 169.254.14.48
+2025/05/14 16:58:01.612911 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:01.753917 Found local IP address: 169.254.14.48
+2025/05/14 16:58:01.758830 Found local IP address: 169.254.14.48
+2025/05/14 16:58:01.758830 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:01.886370 Found local IP address: 169.254.14.48
+2025/05/14 16:58:01.893038 Found local IP address: 169.254.14.48
+2025/05/14 16:58:01.893038 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:02.015410 Found local IP address: 169.254.14.48
+2025/05/14 16:58:02.020619 Found local IP address: 169.254.14.48
+2025/05/14 16:58:02.020619 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:02.153699 Found local IP address: 169.254.14.48
+2025/05/14 16:58:02.157567 Found local IP address: 169.254.14.48
+2025/05/14 16:58:02.157567 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:02.289735 Found local IP address: 169.254.14.48
+2025/05/14 16:58:02.294086 Found local IP address: 169.254.14.48
+2025/05/14 16:58:02.294086 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:02.421415 Found local IP address: 169.254.14.48
+2025/05/14 16:58:02.424942 Found local IP address: 169.254.14.48
+2025/05/14 16:58:02.424942 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:02.634047 Found local IP address: 169.254.14.48
+2025/05/14 16:58:02.639456 Found local IP address: 169.254.14.48
+2025/05/14 16:58:02.639456 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:22.797774 Found local IP address: 169.254.14.48
+2025/05/14 16:58:22.800351 Found local IP address: 169.254.14.48
+2025/05/14 16:58:22.800351 Sending request to master: {"query":"use master_db;\nINSERT INTO tasks ('id', 'title', 'status') VALUES ('10','we','[value-3]');","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:58:22.800868 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INSERT INTO tasks ('id', 'title', 'status') VALUES ('10','we','[value-3]')' at line 2"}
+2025/05/14 16:58:23.063678 Found local IP address: 169.254.14.48
+2025/05/14 16:58:23.066811 Found local IP address: 169.254.14.48
+2025/05/14 16:58:23.066811 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:23.075955 Found local IP address: 169.254.14.48
+2025/05/14 16:58:23.079703 Found local IP address: 169.254.14.48
+2025/05/14 16:58:23.079703 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:23.720672 Found local IP address: 169.254.14.48
+2025/05/14 16:58:23.723302 Found local IP address: 169.254.14.48
+2025/05/14 16:58:23.723302 Sending request to master: {"query":"use master_db;\nINSERT INTO tasks ('id', 'title', 'status') VALUES ('10','we','[value-3]');","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:58:23.723821 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INSERT INTO tasks ('id', 'title', 'status') VALUES ('10','we','[value-3]')' at line 2"}
+2025/05/14 16:58:31.455203 Found local IP address: 169.254.14.48
+2025/05/14 16:58:31.458555 Found local IP address: 169.254.14.48
+2025/05/14 16:58:31.458555 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:31.605268 Found local IP address: 169.254.14.48
+2025/05/14 16:58:31.607704 Found local IP address: 169.254.14.48
+2025/05/14 16:58:31.607704 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:31.753605 Found local IP address: 169.254.14.48
+2025/05/14 16:58:31.756309 Found local IP address: 169.254.14.48
+2025/05/14 16:58:31.756309 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:31.888748 Found local IP address: 169.254.14.48
+2025/05/14 16:58:31.892292 Found local IP address: 169.254.14.48
+2025/05/14 16:58:31.892292 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:32.016360 Found local IP address: 169.254.14.48
+2025/05/14 16:58:32.018700 Found local IP address: 169.254.14.48
+2025/05/14 16:58:32.018700 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:32.151059 Found local IP address: 169.254.14.48
+2025/05/14 16:58:32.153890 Found local IP address: 169.254.14.48
+2025/05/14 16:58:32.154415 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:32.289119 Found local IP address: 169.254.14.48
+2025/05/14 16:58:32.292382 Found local IP address: 169.254.14.48
+2025/05/14 16:58:32.292382 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:32.420511 Found local IP address: 169.254.14.48
+2025/05/14 16:58:32.423774 Found local IP address: 169.254.14.48
+2025/05/14 16:58:32.423774 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:32.634220 Found local IP address: 169.254.14.48
+2025/05/14 16:58:32.636604 Found local IP address: 169.254.14.48
+2025/05/14 16:58:32.636604 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:34.123642 Found local IP address: 169.254.14.48
+2025/05/14 16:58:34.126833 Found local IP address: 169.254.14.48
+2025/05/14 16:58:34.126833 Sending request to master: {"query":"use master_db;\nINSERT INTO 'tasks' ('id', 'title', 'status') VALUES ('10','we','[value-3]')","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:58:34.127356 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INSERT INTO 'tasks' ('id', 'title', 'status') VALUES ('10','we','[value-3]')' at line 2"}
+2025/05/14 16:58:53.064618 Found local IP address: 169.254.14.48
+2025/05/14 16:58:53.071075 Found local IP address: 169.254.14.48
+2025/05/14 16:58:53.071075 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:58:53.077910 Found local IP address: 169.254.14.48
+2025/05/14 16:58:53.082272 Found local IP address: 169.254.14.48
+2025/05/14 16:58:53.082272 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:01.456971 Found local IP address: 169.254.14.48
+2025/05/14 16:59:01.460902 Found local IP address: 169.254.14.48
+2025/05/14 16:59:01.460902 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:01.604209 Found local IP address: 169.254.14.48
+2025/05/14 16:59:01.609100 Found local IP address: 169.254.14.48
+2025/05/14 16:59:01.609100 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:01.756339 Found local IP address: 169.254.14.48
+2025/05/14 16:59:01.759623 Found local IP address: 169.254.14.48
+2025/05/14 16:59:01.759623 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:01.889716 Found local IP address: 169.254.14.48
+2025/05/14 16:59:01.893600 Found local IP address: 169.254.14.48
+2025/05/14 16:59:01.893600 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:02.014336 Found local IP address: 169.254.14.48
+2025/05/14 16:59:02.021486 Found local IP address: 169.254.14.48
+2025/05/14 16:59:02.021486 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:02.152170 Found local IP address: 169.254.14.48
+2025/05/14 16:59:02.156491 Found local IP address: 169.254.14.48
+2025/05/14 16:59:02.156491 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:02.290481 Found local IP address: 169.254.14.48
+2025/05/14 16:59:02.294540 Found local IP address: 169.254.14.48
+2025/05/14 16:59:02.294540 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:02.421202 Found local IP address: 169.254.14.48
+2025/05/14 16:59:02.424719 Found local IP address: 169.254.14.48
+2025/05/14 16:59:02.424719 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:02.633870 Found local IP address: 169.254.14.48
+2025/05/14 16:59:02.638723 Found local IP address: 169.254.14.48
+2025/05/14 16:59:02.638723 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:23.064439 Found local IP address: 169.254.14.48
+2025/05/14 16:59:23.068455 Found local IP address: 169.254.14.48
+2025/05/14 16:59:23.068455 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:23.076727 Found local IP address: 169.254.14.48
+2025/05/14 16:59:23.081009 Found local IP address: 169.254.14.48
+2025/05/14 16:59:23.081009 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:31.455534 Found local IP address: 169.254.14.48
+2025/05/14 16:59:31.459129 Found local IP address: 169.254.14.48
+2025/05/14 16:59:31.459129 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:31.602680 Found local IP address: 169.254.14.48
+2025/05/14 16:59:31.608567 Found local IP address: 169.254.14.48
+2025/05/14 16:59:31.608567 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:31.755000 Found local IP address: 169.254.14.48
+2025/05/14 16:59:31.761264 Found local IP address: 169.254.14.48
+2025/05/14 16:59:31.761264 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:31.888013 Found local IP address: 169.254.14.48
+2025/05/14 16:59:31.893352 Found local IP address: 169.254.14.48
+2025/05/14 16:59:31.893352 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:32.017021 Found local IP address: 169.254.14.48
+2025/05/14 16:59:32.021723 Found local IP address: 169.254.14.48
+2025/05/14 16:59:32.021723 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:32.150444 Found local IP address: 169.254.14.48
+2025/05/14 16:59:32.157191 Found local IP address: 169.254.14.48
+2025/05/14 16:59:32.157191 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:32.288067 Found local IP address: 169.254.14.48
+2025/05/14 16:59:32.293925 Found local IP address: 169.254.14.48
+2025/05/14 16:59:32.293925 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:32.421099 Found local IP address: 169.254.14.48
+2025/05/14 16:59:32.425531 Found local IP address: 169.254.14.48
+2025/05/14 16:59:32.425531 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:32.634082 Found local IP address: 169.254.14.48
+2025/05/14 16:59:32.637512 Found local IP address: 169.254.14.48
+2025/05/14 16:59:32.637512 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:33.437402 Found local IP address: 169.254.14.48
+2025/05/14 16:59:33.441595 Found local IP address: 169.254.14.48
+2025/05/14 16:59:33.441595 Sending request to master: {"query":"use master_db;\nINSERT INTO tasks (id, 'title, 'status) VALUES (10,'we','[value-3]');","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:59:33.442127 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INSERT INTO tasks (id, 'title, 'status) VALUES (10,'we','[value-3]')' at line 2"}
+2025/05/14 16:59:40.346781 Found local IP address: 169.254.14.48
+2025/05/14 16:59:40.349899 Found local IP address: 169.254.14.48
+2025/05/14 16:59:40.349899 Sending request to master: {"query":"use master_db;\nINSERT INTO tasks (id, title, status) VALUES (10,'we','[value-3]');","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:59:40.350516 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INSERT INTO tasks (id, title, status) VALUES (10,'we','[value-3]')' at line 2"}
+2025/05/14 16:59:50.350724 Found local IP address: 169.254.14.48
+2025/05/14 16:59:50.353891 Found local IP address: 169.254.14.48
+2025/05/14 16:59:50.353891 Sending request to master: {"query":"use master_db;\nINSERT INTO tasks (id, title, status) VALUES (10,'we','ok');","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 16:59:50.354584 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INSERT INTO tasks (id, title, status) VALUES (10,'we','ok')' at line 2"}
+2025/05/14 16:59:53.063487 Found local IP address: 169.254.14.48
+2025/05/14 16:59:53.067156 Found local IP address: 169.254.14.48
+2025/05/14 16:59:53.067463 Heartbeat successful from slave 169.254.14.48
+2025/05/14 16:59:53.077292 Found local IP address: 169.254.14.48
+2025/05/14 16:59:53.081449 Found local IP address: 169.254.14.48
+2025/05/14 16:59:53.081449 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:01.455273 Found local IP address: 169.254.14.48
+2025/05/14 17:00:01.460677 Found local IP address: 169.254.14.48
+2025/05/14 17:00:01.460677 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:01.606677 Found local IP address: 169.254.14.48
+2025/05/14 17:00:01.612196 Found local IP address: 169.254.14.48
+2025/05/14 17:00:01.612196 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:01.753407 Found local IP address: 169.254.14.48
+2025/05/14 17:00:01.760283 Found local IP address: 169.254.14.48
+2025/05/14 17:00:01.760283 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:01.891044 Found local IP address: 169.254.14.48
+2025/05/14 17:00:01.896073 Found local IP address: 169.254.14.48
+2025/05/14 17:00:01.896073 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:02.016084 Found local IP address: 169.254.14.48
+2025/05/14 17:00:02.020344 Found local IP address: 169.254.14.48
+2025/05/14 17:00:02.020344 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:02.153338 Found local IP address: 169.254.14.48
+2025/05/14 17:00:02.158022 Found local IP address: 169.254.14.48
+2025/05/14 17:00:02.158022 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:02.290489 Found local IP address: 169.254.14.48
+2025/05/14 17:00:02.294135 Found local IP address: 169.254.14.48
+2025/05/14 17:00:02.294135 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:02.421110 Found local IP address: 169.254.14.48
+2025/05/14 17:00:02.430031 Found local IP address: 169.254.14.48
+2025/05/14 17:00:02.430031 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:02.633290 Found local IP address: 169.254.14.48
+2025/05/14 17:00:02.638259 Found local IP address: 169.254.14.48
+2025/05/14 17:00:02.638259 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:23.062698 Found local IP address: 169.254.14.48
+2025/05/14 17:00:23.066280 Found local IP address: 169.254.14.48
+2025/05/14 17:00:23.066280 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:23.076754 Found local IP address: 169.254.14.48
+2025/05/14 17:00:23.079624 Found local IP address: 169.254.14.48
+2025/05/14 17:00:23.079624 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:24.102475 Found local IP address: 169.254.14.48
+2025/05/14 17:00:24.148064 Found local IP address: 169.254.14.48
+2025/05/14 17:00:24.148064 Sending request to master: {"query":"SELECT * FROM master_db.tasks","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 17:00:24.154032 Received response from master: {"status":"ok","message":"Select executed successfully","header":["id","title","status"],"rows":[[1,"ww","ok"],[2,"ww","pending"],[3,"ww","in_progress"],[4,"ww","pending"]]}
+2025/05/14 17:00:30.536482 Found local IP address: 169.254.14.48
+2025/05/14 17:00:30.539612 Found local IP address: 169.254.14.48
+2025/05/14 17:00:30.539612 Sending request to master: {"query":"use master_db;\nINSERT INTO tasks (id, title, status) VALUES (10,'we','ok');","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 17:00:30.540132 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INSERT INTO tasks (id, title, status) VALUES (10,'we','ok')' at line 2"}
+2025/05/14 17:00:31.458866 Found local IP address: 169.254.14.48
+2025/05/14 17:00:31.465001 Found local IP address: 169.254.14.48
+2025/05/14 17:00:31.465001 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:31.604450 Found local IP address: 169.254.14.48
+2025/05/14 17:00:31.606637 Found local IP address: 169.254.14.48
+2025/05/14 17:00:31.606637 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:31.754197 Found local IP address: 169.254.14.48
+2025/05/14 17:00:31.757025 Found local IP address: 169.254.14.48
+2025/05/14 17:00:31.757025 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:31.888010 Found local IP address: 169.254.14.48
+2025/05/14 17:00:31.890838 Found local IP address: 169.254.14.48
+2025/05/14 17:00:31.890838 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:32.016146 Found local IP address: 169.254.14.48
+2025/05/14 17:00:32.019350 Found local IP address: 169.254.14.48
+2025/05/14 17:00:32.019350 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:32.151979 Found local IP address: 169.254.14.48
+2025/05/14 17:00:32.155506 Found local IP address: 169.254.14.48
+2025/05/14 17:00:32.155506 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:32.289539 Found local IP address: 169.254.14.48
+2025/05/14 17:00:32.291962 Found local IP address: 169.254.14.48
+2025/05/14 17:00:32.291962 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:32.420660 Found local IP address: 169.254.14.48
+2025/05/14 17:00:32.424588 Found local IP address: 169.254.14.48
+2025/05/14 17:00:32.424588 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:32.631647 Found local IP address: 169.254.14.48
+2025/05/14 17:00:32.636296 Found local IP address: 169.254.14.48
+2025/05/14 17:00:32.636296 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:53.064144 Found local IP address: 169.254.14.48
+2025/05/14 17:00:53.067845 Found local IP address: 169.254.14.48
+2025/05/14 17:00:53.067845 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:00:53.077426 Found local IP address: 169.254.14.48
+2025/05/14 17:00:53.081546 Found local IP address: 169.254.14.48
+2025/05/14 17:00:53.081546 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:01.453935 Found local IP address: 169.254.14.48
+2025/05/14 17:01:01.459526 Found local IP address: 169.254.14.48
+2025/05/14 17:01:01.459526 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:01.606400 Found local IP address: 169.254.14.48
+2025/05/14 17:01:01.610227 Found local IP address: 169.254.14.48
+2025/05/14 17:01:01.610227 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:01.752337 Found local IP address: 169.254.14.48
+2025/05/14 17:01:01.759971 Found local IP address: 169.254.14.48
+2025/05/14 17:01:01.759971 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:01.888800 Found local IP address: 169.254.14.48
+2025/05/14 17:01:01.893179 Found local IP address: 169.254.14.48
+2025/05/14 17:01:01.893179 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:02.017245 Found local IP address: 169.254.14.48
+2025/05/14 17:01:02.021906 Found local IP address: 169.254.14.48
+2025/05/14 17:01:02.021906 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:02.151840 Found local IP address: 169.254.14.48
+2025/05/14 17:01:02.157526 Found local IP address: 169.254.14.48
+2025/05/14 17:01:02.157526 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:02.288795 Found local IP address: 169.254.14.48
+2025/05/14 17:01:02.296537 Found local IP address: 169.254.14.48
+2025/05/14 17:01:02.296537 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:02.420221 Found local IP address: 169.254.14.48
+2025/05/14 17:01:02.426019 Found local IP address: 169.254.14.48
+2025/05/14 17:01:02.426019 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:02.634772 Found local IP address: 169.254.14.48
+2025/05/14 17:01:02.638153 Found local IP address: 169.254.14.48
+2025/05/14 17:01:02.638153 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:09.495101 Found local IP address: 169.254.14.48
+2025/05/14 17:01:09.498785 Found local IP address: 169.254.14.48
+2025/05/14 17:01:09.498785 Sending request to master: {"query":"use master_db;\nSELECT `id`, `title`, `status` FROM `tasks` WHERE 1;\nINSERT INTO tasks (id, title, status) VALUES (10,'we','ok');","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 17:01:09.499309 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT `id`, `title`, `status` FROM `tasks` WHERE 1;\nINSERT INTO tasks (id, t...' at line 2"}
+2025/05/14 17:01:23.063611 Found local IP address: 169.254.14.48
+2025/05/14 17:01:23.066818 Found local IP address: 169.254.14.48
+2025/05/14 17:01:23.066818 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:23.075644 Found local IP address: 169.254.14.48
+2025/05/14 17:01:23.080654 Found local IP address: 169.254.14.48
+2025/05/14 17:01:23.080654 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:27.208426 Found local IP address: 169.254.14.48
+2025/05/14 17:01:27.212311 Found local IP address: 169.254.14.48
+2025/05/14 17:01:27.212311 Sending request to master: {"query":"Select databases;","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 17:01:27.212835 Received response from master: {"status":"error","message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'databases' at line 1"}
+2025/05/14 17:01:31.456176 Found local IP address: 169.254.14.48
+2025/05/14 17:01:31.459421 Found local IP address: 169.254.14.48
+2025/05/14 17:01:31.459421 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:31.604326 Found local IP address: 169.254.14.48
+2025/05/14 17:01:31.609860 Found local IP address: 169.254.14.48
+2025/05/14 17:01:31.609860 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:31.756101 Found local IP address: 169.254.14.48
+2025/05/14 17:01:31.759567 Found local IP address: 169.254.14.48
+2025/05/14 17:01:31.759567 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:31.889038 Found local IP address: 169.254.14.48
+2025/05/14 17:01:31.893519 Found local IP address: 169.254.14.48
+2025/05/14 17:01:31.893519 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:32.022644 Found local IP address: 169.254.14.48
+2025/05/14 17:01:32.030911 Found local IP address: 169.254.14.48
+2025/05/14 17:01:32.030911 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:32.153905 Found local IP address: 169.254.14.48
+2025/05/14 17:01:32.157847 Found local IP address: 169.254.14.48
+2025/05/14 17:01:32.157847 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:32.288334 Found local IP address: 169.254.14.48
+2025/05/14 17:01:32.293212 Found local IP address: 169.254.14.48
+2025/05/14 17:01:32.293212 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:32.420034 Found local IP address: 169.254.14.48
+2025/05/14 17:01:32.425321 Found local IP address: 169.254.14.48
+2025/05/14 17:01:32.425321 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:32.635567 Found local IP address: 169.254.14.48
+2025/05/14 17:01:32.640072 Found local IP address: 169.254.14.48
+2025/05/14 17:01:32.640072 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:40.045456 Found local IP address: 169.254.14.48
+2025/05/14 17:01:40.049263 Found local IP address: 169.254.14.48
+2025/05/14 17:01:40.049263 Sending request to master: {"query":"show databases;","token":"secret-token","from_slave":"169.254.14.48","is_select":false,"ip":"","role":""}
+2025/05/14 17:01:40.050428 Received response from master: {"status":"ok","message":"Query executed successfully. Rows affected: 0"}
+2025/05/14 17:01:53.063534 Found local IP address: 169.254.14.48
+2025/05/14 17:01:53.067178 Found local IP address: 169.254.14.48
+2025/05/14 17:01:53.067178 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:53.077386 Found local IP address: 169.254.14.48
+2025/05/14 17:01:53.081863 Found local IP address: 169.254.14.48
+2025/05/14 17:01:53.081863 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:01:55.787231 Found local IP address: 169.254.14.48
+2025/05/14 17:01:55.791532 Found local IP address: 169.254.14.48
+2025/05/14 17:01:55.791532 Sending request to master: {"query":"SELECT * FROM master_db.tasks","token":"secret-token","from_slave":"169.254.14.48","is_select":true,"ip":"","role":""}
+2025/05/14 17:01:55.792080 Received response from master: {"status":"ok","message":"Select executed successfully","header":["id","title","status"],"rows":[[1,"ww","ok"],[2,"ww","pending"],[3,"ww","in_progress"],[4,"ww","pending"]]}
+2025/05/14 17:02:01.456154 Found local IP address: 169.254.14.48
+2025/05/14 17:02:01.459782 Found local IP address: 169.254.14.48
+2025/05/14 17:02:01.459782 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:01.605243 Found local IP address: 169.254.14.48
+2025/05/14 17:02:01.609647 Found local IP address: 169.254.14.48
+2025/05/14 17:02:01.609647 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:01.755171 Found local IP address: 169.254.14.48
+2025/05/14 17:02:01.761055 Found local IP address: 169.254.14.48
+2025/05/14 17:02:01.761055 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:01.889350 Found local IP address: 169.254.14.48
+2025/05/14 17:02:01.892409 Found local IP address: 169.254.14.48
+2025/05/14 17:02:01.893155 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:02.018325 Found local IP address: 169.254.14.48
+2025/05/14 17:02:02.022530 Found local IP address: 169.254.14.48
+2025/05/14 17:02:02.022530 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:02.150205 Found local IP address: 169.254.14.48
+2025/05/14 17:02:02.156222 Found local IP address: 169.254.14.48
+2025/05/14 17:02:02.156222 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:02.288627 Found local IP address: 169.254.14.48
+2025/05/14 17:02:02.293285 Found local IP address: 169.254.14.48
+2025/05/14 17:02:02.293285 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:02.421243 Found local IP address: 169.254.14.48
+2025/05/14 17:02:02.424446 Found local IP address: 169.254.14.48
+2025/05/14 17:02:02.424446 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:02.632847 Found local IP address: 169.254.14.48
+2025/05/14 17:02:02.637740 Found local IP address: 169.254.14.48
+2025/05/14 17:02:02.637740 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:23.062635 Found local IP address: 169.254.14.48
+2025/05/14 17:02:23.065789 Found local IP address: 169.254.14.48
+2025/05/14 17:02:23.066296 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:23.076585 Found local IP address: 169.254.14.48
+2025/05/14 17:02:23.079213 Found local IP address: 169.254.14.48
+2025/05/14 17:02:23.079213 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:31.456462 Found local IP address: 169.254.14.48
+2025/05/14 17:02:31.460436 Found local IP address: 169.254.14.48
+2025/05/14 17:02:31.460436 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:31.603167 Found local IP address: 169.254.14.48
+2025/05/14 17:02:31.609447 Found local IP address: 169.254.14.48
+2025/05/14 17:02:31.609447 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:31.754477 Found local IP address: 169.254.14.48
+2025/05/14 17:02:31.758724 Found local IP address: 169.254.14.48
+2025/05/14 17:02:31.758724 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:31.889330 Found local IP address: 169.254.14.48
+2025/05/14 17:02:31.893346 Found local IP address: 169.254.14.48
+2025/05/14 17:02:31.893346 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:32.017442 Found local IP address: 169.254.14.48
+2025/05/14 17:02:32.020634 Found local IP address: 169.254.14.48
+2025/05/14 17:02:32.020634 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:32.152989 Found local IP address: 169.254.14.48
+2025/05/14 17:02:32.156906 Found local IP address: 169.254.14.48
+2025/05/14 17:02:32.156906 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:32.290455 Found local IP address: 169.254.14.48
+2025/05/14 17:02:32.293966 Found local IP address: 169.254.14.48
+2025/05/14 17:02:32.293966 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:32.418462 Found local IP address: 169.254.14.48
+2025/05/14 17:02:32.424886 Found local IP address: 169.254.14.48
+2025/05/14 17:02:32.424886 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:32.633125 Found local IP address: 169.254.14.48
+2025/05/14 17:02:32.638540 Found local IP address: 169.254.14.48
+2025/05/14 17:02:32.638540 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:53.063117 Found local IP address: 169.254.14.48
+2025/05/14 17:02:53.068980 Found local IP address: 169.254.14.48
+2025/05/14 17:02:53.068980 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:02:53.078993 Found local IP address: 169.254.14.48
+2025/05/14 17:02:53.085029 Found local IP address: 169.254.14.48
+2025/05/14 17:02:53.085029 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:01.455451 Found local IP address: 169.254.14.48
+2025/05/14 17:03:01.460181 Found local IP address: 169.254.14.48
+2025/05/14 17:03:01.460181 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:01.612767 Found local IP address: 169.254.14.48
+2025/05/14 17:03:01.618428 Found local IP address: 169.254.14.48
+2025/05/14 17:03:01.618428 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:01.755641 Found local IP address: 169.254.14.48
+2025/05/14 17:03:01.760162 Found local IP address: 169.254.14.48
+2025/05/14 17:03:01.760162 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:01.888633 Found local IP address: 169.254.14.48
+2025/05/14 17:03:01.894072 Found local IP address: 169.254.14.48
+2025/05/14 17:03:01.894072 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:02.014186 Found local IP address: 169.254.14.48
+2025/05/14 17:03:02.021240 Found local IP address: 169.254.14.48
+2025/05/14 17:03:02.021240 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:02.152813 Found local IP address: 169.254.14.48
+2025/05/14 17:03:02.157156 Found local IP address: 169.254.14.48
+2025/05/14 17:03:02.157156 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:02.290050 Found local IP address: 169.254.14.48
+2025/05/14 17:03:02.293326 Found local IP address: 169.254.14.48
+2025/05/14 17:03:02.293326 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:02.420070 Found local IP address: 169.254.14.48
+2025/05/14 17:03:02.425560 Found local IP address: 169.254.14.48
+2025/05/14 17:03:02.425560 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:02.633950 Found local IP address: 169.254.14.48
+2025/05/14 17:03:02.638388 Found local IP address: 169.254.14.48
+2025/05/14 17:03:02.638388 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:23.063340 Found local IP address: 169.254.14.48
+2025/05/14 17:03:23.067219 Found local IP address: 169.254.14.48
+2025/05/14 17:03:23.067219 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:23.076712 Found local IP address: 169.254.14.48
+2025/05/14 17:03:23.079465 Found local IP address: 169.254.14.48
+2025/05/14 17:03:23.079465 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:47.869212 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.874214 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.874973 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:47.879330 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.884650 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.884650 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:47.888507 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.895002 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.895002 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:47.898225 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.902890 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.902890 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:47.906576 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.910840 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.910840 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:47.914051 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.926152 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.926152 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:47.933645 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.940489 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.940489 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:47.947011 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.951051 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.951051 Heartbeat successful from slave 169.254.14.48
+2025/05/14 17:03:47.954768 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.958186 Found local IP address: 169.254.14.48
+2025/05/14 17:03:47.958186 Heartbeat successful from slave 169.254.14.48
+2025/05/14 19:22:54.045210 Failed to initialize database handler: failed to ping database: dial tcp 127.0.0.1:3307: connectex: No connection could be made because the target machine actively refused it.
+2025/05/14 19:23:43.935309 Connecting to master server...
+2025/05/14 19:23:43.948739 Found local IP address: 169.254.14.48
+2025/05/14 19:23:43.951412 Found local IP address: 169.254.14.48
+2025/05/14 19:23:43.951412 Established persistent connection to master server from 169.254.14.48
+2025/05/14 19:23:43.951930 Successfully connected to master server
+2025/05/14 19:23:43.951930 Slave started. Type your SQL query (or 'exit' to quit):
+2025/05/14 19:23:43.951930 Starting Slave GUI server...
+2025/05/14 19:23:43.951930 Found web directory at: ./web
+2025/05/14 19:23:43.951930 Slave GUI running at http://localhost:8084/
+2025/05/14 19:23:43.951930 Attempt 1: Starting server on port 8084...
+2025/05/14 19:24:04.407331 Received request: GET /favicon.ico
+2025/05/14 19:24:04.407331 Serving from directory: ./web
+2025/05/14 19:24:04.407885 File not found: ./web/favicon.ico
+2025/05/14 19:24:13.952006 Found local IP address: 169.254.14.48
+2025/05/14 19:24:13.956873 Found local IP address: 169.254.14.48
+2025/05/14 19:24:13.956873 Heartbeat successful from slave 169.254.14.48
+2025/05/14 19:24:43.953605 Found local IP address: 169.254.14.48
+2025/05/14 19:24:43.957294 Found local IP address: 169.254.14.48
+2025/05/14 19:24:43.957294 Heartbeat successful from slave 169.254.14.48
+2025/05/14 19:25:13.955125 Found local IP address: 169.254.14.48
+2025/05/14 19:25:13.958556 Found local IP address: 169.254.14.48
+2025/05/14 19:25:13.958556 Heartbeat successful from slave 169.254.14.48
+2025/05/14 19:25:43.953021 Found local IP address: 169.254.14.48
+2025/05/14 19:25:43.962473 Found local IP address: 169.254.14.48
+2025/05/14 19:25:43.962473 Heartbeat successful from slave 169.254.14.48
+2025/05/14 19:26:13.953143 Found local IP address: 169.254.14.48
+2025/05/14 19:26:13.955988 Found local IP address: 169.254.14.48
+2025/05/14 19:26:13.955988 Heartbeat successful from slave 169.254.14.48
+2025/05/14 19:26:43.949901 Found local IP address: 169.254.14.48
+2025/05/14 19:26:43.955885 Found local IP address: 169.254.14.48
+2025/05/14 19:26:43.955885 Heartbeat successful from slave 169.254.14.48

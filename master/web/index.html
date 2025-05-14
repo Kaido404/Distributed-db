@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Node Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Master Node Dashboard</h1>
+        
+        
+
+        <!-- Execute Query (خانة لكتابة الاستعلام) -->
+        <div class="section">
+            <h2>Execute Query</h2>
+            <textarea id="query" placeholder="Enter your SQL query here" rows="3" style="width: 100%;"></textarea>
+            <button onclick="executeQuery()">Execute</button>
+        </div>
+
+        <!-- Database Operations -->
+        <div class="section">
+            <h2>Database Operations</h2>
+            <div class="operation-group">
+                <!-- Create Database -->
+                <div class="operation">
+                    <h3>Create Database</h3>
+                    <input type="text" id="dbName" placeholder="Enter Database Name">
+                    <button onclick="createDatabase()">Create Database</button>
+                </div>
+                <!-- Drop Database -->
+                <div class="operation">
+                    <h3>Drop Database</h3>
+                    <input type="text" id="dropDbName" placeholder="Enter Database Name">
+                    <button onclick="dropDatabase()">Drop Database</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Table Operations -->
+        <div class="section">
+            <h2>Table Operations</h2>
+            <div class="operation-group">
+                <!-- Create Table -->
+                <div class="operation">
+                    <h3>Create Table</h3>
+                    <input type="text" id="tableDB" placeholder="Enter Database Name">
+                    <input type="text" id="tableName" placeholder="Enter Table Name">
+                    <div id="columns">
+                        <div class="column">
+                            <input type="text" placeholder="Column Name">
+                            <select class="column-type">
+                                <option value="INT">INT</option>
+                                <option value="VARCHAR(255)">VARCHAR</option>
+                                <option value="TEXT">TEXT</option>
+                                <option value="DATETIME">DATETIME</option>
+                                <option value="BOOLEAN">BOOLEAN</option>
+                                <option value="FLOAT">FLOAT</option>
+                                <option value="DOUBLE">DOUBLE</option>
+                            </select>
+                            <label><input type="checkbox" class="nullable"> Nullable</label>
+                            <label><input type="checkbox" class="primary-key"> Primary Key</label>
+                            <button onclick="this.parentElement.remove()">Remove</button>
+                        </div>
+                    </div>
+                    <button onclick="addColumn()">Add Column</button>
+                    <button onclick="createTable()">Create Table</button>
+                </div>
+                <!-- Drop Table -->
+                <div class="operation">
+                    <h3>Drop Table</h3>
+                    <input type="text" id="dropTableDB" placeholder="Enter Database Name">
+                    <input type="text" id="dropTableName" placeholder="Enter Table Name">
+                    <button onclick="dropTable()">Drop Table</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Operations -->
+        <div class="section">
+            <h2>Data Operations</h2>
+            <div class="operation-group">
+                <!-- Insert Data -->
+                <div class="operation">
+                    <h3>Insert Data</h3>
+                    <input type="text" id="insertDB" placeholder="Enter Database Name">
+                    <input type="text" id="insertTable" placeholder="Enter Table Name">
+                    <div id="insertFields"></div>
+                    <button onclick="addInsertField()">Add Field</button>
+                    <button onclick="insertData()">Insert Data</button>
+                </div>
+                <!-- Select Data -->
+                <div class="operation">
+                    <h3>Select Data</h3>
+                    <input type="text" id="selectDB" placeholder="Enter Database Name">
+                    <input type="text" id="selectTable" placeholder="Enter Table Name">
+                    <div class="select-options">
+                        <label><input type="checkbox" id="selectAll" checked> Select All</label>
+                        <div id="selectColumns"></div>
+                    </div>
+                    <div class="where-clause">
+                        <h4>Where Conditions</h4>
+                        <div id="whereConditions">
+                            <div class="condition">
+                                <input type="text" placeholder="Column">
+                                <select>
+                                    <option value="=">=</option>
+                                    <option value=">">></option>
+                                    <option value="<"><</option>
+                                    <option value=">=">>=</option>
+                                    <option value="<="><=</option>
+                                    <option value="!=">!=</option>
+                                    <option value="LIKE">LIKE</option>
+                                </select>
+                                <input type="text" placeholder="Value">
+                                <button onclick="this.parentElement.remove()">Remove</button>
+                            </div>
+                        </div>
+                        <button onclick="addWhereCondition()">Add Condition</button>
+                    </div>
+                    <button onclick="selectData()">Execute Select</button>
+                </div>
+                <!-- Update Data -->
+                <div class="operation">
+                    <h3>Update Data</h3>
+                    <input type="text" id="updateDB" placeholder="Enter Database Name">
+                    <input type="text" id="updateTable" placeholder="Enter Table Name">
+                    <div id="updateFields"></div>
+                    <button onclick="addUpdateField()">Add Update Field</button>
+                    <div class="where-clause">
+                        <h4>Where Conditions</h4>
+                        <div id="updateWhereConditions">
+                            <div class="condition">
+                                <input type="text" placeholder="Column">
+                                <select>
+                                    <option value="=">=</option>
+                                    <option value=">">></option>
+                                    <option value="<"><</option>
+                                    <option value=">=">>=</option>
+                                    <option value="<="><=</option>
+                                    <option value="!=">!=</option>
+                                    <option value="LIKE">LIKE</option>
+                                </select>
+                                <input type="text" placeholder="Value">
+                                <button onclick="this.parentElement.remove()">Remove</button>
+                            </div>
+                        </div>
+                        <button onclick="addUpdateWhereCondition()">Add Where Condition</button>
+                    </div>
+                    <button onclick="updateData()">Execute Update</button>
+                </div>
+                <!-- Delete Column -->
+                <div class="operation">
+                    <h3>Delete Column</h3>
+                    <input type="text" id="deleteColumnDB" placeholder="Enter Database Name">
+                    <input type="text" id="deleteColumnTable" placeholder="Enter Table Name">
+                    <input type="text" id="deleteColumnName" placeholder="Enter Column Name">
+                    <button onclick="deleteColumn()">Delete Column</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Query Results -->
+        <div class="section">
+            <h2>Query Results</h2>
+            <div id="queryResult" class="result"></div>
+        </div>
+
+        <!-- Connected Slaves -->
+        <div class="section">
+            <h2>Connected Slaves</h2>
+            <div id="slavesList" class="slaves-list"></div>
+        </div>
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>     

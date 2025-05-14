@@ -1,0 +1,329 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #444;
+    margin-top: 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"],
+select,
+textarea {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.column {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#queryResult {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.error {
+    color: #dc3545;
+    padding: 10px;
+    border: 1px solid #dc3545;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.success {
+    color: #28a745;
+    padding: 10px;
+    border: 1px solid #28a745;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Insert Fields */
+#insertFields {
+    margin: 15px 0;
+}
+
+.insert-field {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.insert-field input {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+/* Select Options */
+.select-options {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.select-options label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #555;
+}
+
+#selectColumns {
+    margin-top: 15px;
+}
+
+.select-column {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+/* Where Conditions */
+.where-clause {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.where-clause h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #1a73e8;
+    font-size: 1.2em;
+}
+
+.condition {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.condition input[type="text"] {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.condition select {
+    width: 120px;
+    margin-bottom: 0;
+}
+
+/* Operation Groups */
+.operation-group {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.operation {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 19px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.operation h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #1a73e8;
+    font-size: 1.4em;
+}
+
+/* Results */
+.result {
+    margin-top: 18px;
+    padding: 14px 12px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    overflow-x: auto;
+    border: none;
+    font-size: 1.05em;
+    color: #333;
+    text-align: left;
+}
+
+/* Logs Section Styles */
+.logs-controls {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.logs-container {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Consolas', monospace;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.log-entry {
+    margin-bottom: 12px;
+    padding: 12px;
+    border-left: 4px solid #666;
+    transition: background-color 0.2s;
+}
+
+.log-entry:hover {
+    background-color: #2a2a2a;
+}
+
+.log-timestamp {
+    color: #888;
+    margin-right: 15px;
+}
+
+.log-type {
+    font-weight: bold;
+    margin-right: 15px;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.log-type.QUERY { color: #4CAF50; }
+.log-type.DATABASE { color: #2196F3; }
+.log-type.TABLE { color: #FF9800; }
+.log-type.REPLICATION { color: #9C27B0; }
+.log-type.ERROR { color: #f44336; }
+.log-type.SLAVE { color: #00BCD4; }
+
+.log-message {
+    color: #fff;
+}
+
+.log-data {
+    color: #888;
+    margin-top: 8px;
+    font-size: 0.9em;
+    padding: 8px;
+    background-color: #2a2a2a;
+    border-radius: 4px;
+}
+
+/* Slaves List */
+.slaves-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.slave-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1000px) {
+    .container {
+        width: 100%;
+        padding: 0 4px;
+    }
+    .section {
+        padding: 18px 4px 18px 4px;
+    }
+    h1, h2 {
+        font-size: 1.3em;
+    }
+} 
