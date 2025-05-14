@@ -23,6 +23,41 @@ This project is a distributed database system written in Go, consisting of a Mas
 └── go.sum           # Dependency verification
 ```
 
+## System Architecture Overview
+
+The system follows a Master-Slave architecture to ensure scalability, reliability, and data consistency. The Master node is responsible for all write operations and coordination, while Slave nodes handle read operations and replicate data from the Master. Communication between nodes is handled via TCP and HTTP protocols, and all nodes interact with a shared MySQL database.
+
+**Architecture Diagram:**
+
+```
+           +-------------------+
+           |    Web Clients    |
+           +-------------------+
+                    |
+                    v
+           +-------------------+
+           |     Master Node   |
+           |  (Write/Control)  |
+           +-------------------+
+            |        |        |
+   TCP/HTTP |        |        | TCP/HTTP
+            v        v        v
+      +---------+ +---------+ +---------+
+      | Slave 1 | | Slave 2 | | Slave N |
+      | (Read)  | | (Read)  | | (Read)  |
+      +---------+ +---------+ +---------+
+            \        |        /
+             \       |       /
+              +--------------+
+              |   MySQL DB   |
+              +--------------+
+```
+
+- **Master Node:** Handles all write operations, manages slaves, and broadcasts updates.
+- **Slave Nodes:** Handle read operations, replicate data from the master, and provide web interfaces for queries.
+- **MySQL Database:** Central data store accessed by all nodes.
+- **Communication:** Master and slaves communicate over TCP/HTTP; web clients interact via HTTP.
+
 ## Main Components
 
 ### 1. Shared Components (`shared/`)
@@ -82,7 +117,7 @@ This project is a distributed database system written in Go, consisting of a Mas
 ### Adding a New Slave Node
 1. Ensure the master node is running.
 2. Start a new slave node: `go run slave/main.go`
-3. Check that the new slave appears in the master’s connected slaves list.
+3. Check that the new slave appears in the master's connected slaves list.
 
 ## Troubleshooting
 
